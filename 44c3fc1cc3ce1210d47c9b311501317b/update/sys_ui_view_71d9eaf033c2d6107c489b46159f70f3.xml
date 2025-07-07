@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>workspace-nask-incident-tools-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-21 07:01:55</sys_created_on>
+        <sys_id>71d9eaf033c2d6107c489b46159f70f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace NASK Incident Tools 0</sys_name>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name>sys_ui_view_71d9eaf033c2d6107c489b46159f70f3</sys_update_name>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-21 07:01:55</sys_updated_on>
+        <title>Workspace NASK Incident Tools 0</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

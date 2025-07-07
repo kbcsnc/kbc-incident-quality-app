@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="a197fc50c3025210d47c9b31150131a2" sys_domain="global" table="x_snc_nask_incid_0_incident_quality_assessment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:25:45</sys_created_on>
+            <sys_id>ed97fc50c3025210d47c9b31150131a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>1</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:25:45</sys_created_on>
+            <sys_id>2d97fc50c3025210d47c9b31150131a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci</element>
+            <position>2</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:25:45</sys_created_on>
+            <sys_id>a197fc50c3025210d47c9b31150131a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>3</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:25:45</sys_created_on>
+            <sys_id>e9973090c3025210d47c9b311501312e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:25:45</sys_created_on>
+            <sys_id>2997fc50c3025210d47c9b31150131a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:25:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>5</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:25:45</sys_created_on>
+            <sys_id>61973090c3025210d47c9b311501312f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>6</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:25:45</sys_created_on>
+            <sys_id>e5973090c3025210d47c9b311501312f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>7</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:25:45</sys_created_on>
+            <sys_id>6d973090c3025210d47c9b311501312f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:25:45</sys_created_on>
+            <sys_id>e1973090c3025210d47c9b3115013130</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:25:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>9</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:25:45</sys_created_on>
+            <sys_id>69973090c3025210d47c9b3115013130</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>10</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:25:45</sys_created_on>
+            <sys_id>ed973090c3025210d47c9b3115013130</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>11</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:25:45</sys_created_on>
+            <sys_id>65973090c3025210d47c9b3115013131</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>incident</element>
+            <position>12</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:32:36</sys_created_on>
+            <sys_id>82297014c3025210d47c9b31150131dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:32:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quality_classification</element>
+            <position>13</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:34:15</sys_created_on>
+            <sys_id>b589b814c3025210d47c9b31150131ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:34:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quality_summary</element>
+            <position>14</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:34:49</sys_created_on>
+            <sys_id>96a9fc14c3025210d47c9b3115013136</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:34:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assessment_record</element>
+            <position>15</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-20 09:09:00</sys_created_on>
+            <sys_id>065d352cc3ca9210d47c9b3115013128</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-20 09:09:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes_processed</element>
+            <position>16</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 07:37:36</sys_created_on>
+            <sys_id>740276f0c346d610d47c9b311501314a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="Default view">a197fc50c3025210d47c9b31150131a2</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 07:37:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_nask_incid_0_incident_quality_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-19 09:25:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a197fc50c3025210d47c9b31150131a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_nask_incid_0_incident_quality_assessment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+            <sys_update_name>sys_ui_section_a197fc50c3025210d47c9b31150131a2</sys_update_name>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-19 09:25:45</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

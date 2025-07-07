@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="22dc3458c3025210d47c9b31150131f1" extends="task" label="Incident Quality Assessment Request" max_length="40" name="x_snc_nask_incid_0_incident_quality_assessment_request" text_index="true" type="collection">
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Days Notes to Consider" max_length="40" name="days_notes_to_consider" type="integer"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Incident Count" max_length="40" name="incident_count" type="integer"/>
+    </element>
+</database>

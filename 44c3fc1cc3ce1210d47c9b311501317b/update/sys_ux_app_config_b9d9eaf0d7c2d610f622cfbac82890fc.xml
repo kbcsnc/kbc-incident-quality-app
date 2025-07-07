@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>[NASK] Incident Tools App Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-21 07:01:54</sys_created_on>
+        <sys_id>b9d9eaf0d7c2d610f622cfbac82890fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[NASK] Incident Tools App Config</sys_name>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name>sys_ux_app_config_b9d9eaf0d7c2d610f622cfbac82890fc</sys_update_name>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-21 07:01:54</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=b9d9eaf0d7c2d610f622cfbac82890fc"/>
+</record_update>

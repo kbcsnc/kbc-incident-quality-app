@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ml_training_request_schedule">
+    <ml_training_request_schedule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <capability/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <ml_capability_definition display_value="docintel_training_workflow_4d763579c3b49a10dd0533411501317e">c1763579c3b49a10dd0533411501318a</ml_capability_definition>
+        <ml_solution/>
+        <name>docintel_training_workflow_4d763579c3b49a10dd0533411501317e</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Super Man">49ba4d9d1b5a0a109d29dc6ee54bcb43</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2025-02-10 06:22:08</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <solution_definition/>
+        <sys_class_name>ml_training_request_schedule</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-02-10 06:22:08</sys_created_on>
+        <sys_id>8d896bb6c3ab5250d47c9b31150131c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>docintel_training_workflow_4d763579c3b49a10dd0533411501317e</sys_name>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name>ml_training_request_schedule_8d896bb6c3ab5250d47c9b31150131c4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-02-10 06:22:09</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </ml_training_request_schedule>
+</record_update>

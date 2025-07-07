@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source">
+    <ais_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <datasource display_value="">x_snc_nask_incid_0_incident_quality_assessment</datasource>
+        <has_dynamic_filters>false</has_dynamic_filters>
+        <name>Incident Quality Assessment</name>
+        <sys_class_name>ais_search_source</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-21 07:02:00</sys_created_on>
+        <sys_id>dfd9eef0c3c2d610d47c9b31150131c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incident Quality Assessment</sys_name>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name>ais_search_source_dfd9eef0c3c2d610d47c9b31150131c9</sys_update_name>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-21 07:02:00</sys_updated_on>
+    </ais_search_source>
+</record_update>

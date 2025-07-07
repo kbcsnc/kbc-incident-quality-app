@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Incident" section_id="9a313230c346d610d47c9b31150131eb" sys_domain="global" table="x_snc_nask_incid_0_incident_quality_assessment" version="3" view="workspace-nask-incident-tools-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>incident</element>
+            <position>0</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 08:11:21</sys_created_on>
+            <sys_id>9fb9bab0c3c6d610d47c9b3115013106</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Incident" display_value="Incident" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="71d9eaf033c2d6107c489b46159f70f3">9a313230c346d610d47c9b31150131eb</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 08:11:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes_processed</element>
+            <position>1</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 08:11:21</sys_created_on>
+            <sys_id>5bb9bab0c3c6d610d47c9b3115013120</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Incident" display_value="Incident" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="71d9eaf033c2d6107c489b46159f70f3">9a313230c346d610d47c9b31150131eb</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 08:11:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 08:11:21</sys_created_on>
+            <sys_id>53b9bab0c3c6d610d47c9b3115013121</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Incident" display_value="Incident" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="71d9eaf033c2d6107c489b46159f70f3">9a313230c346d610d47c9b31150131eb</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 08:11:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>3</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 08:11:21</sys_created_on>
+            <sys_id>5bb9bab0c3c6d610d47c9b3115013121</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Incident" display_value="Incident" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="71d9eaf033c2d6107c489b46159f70f3">9a313230c346d610d47c9b31150131eb</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 08:11:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 08:11:21</sys_created_on>
+            <sys_id>53b9bab0c3c6d610d47c9b3115013122</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Incident" display_value="Incident" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="71d9eaf033c2d6107c489b46159f70f3">9a313230c346d610d47c9b31150131eb</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 08:11:21</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quality_classification</element>
+            <position>5</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 08:11:21</sys_created_on>
+            <sys_id>5bb9bab0c3c6d610d47c9b3115013122</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Incident" display_value="Incident" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="71d9eaf033c2d6107c489b46159f70f3">9a313230c346d610d47c9b31150131eb</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 08:11:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quality_summary</element>
+            <position>6</position>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 08:11:21</sys_created_on>
+            <sys_id>53b9bab0c3c6d610d47c9b3115013123</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Incident" display_value="Incident" name="x_snc_nask_incid_0_incident_quality_assessment" sys_domain="global" view="71d9eaf033c2d6107c489b46159f70f3">9a313230c346d610d47c9b31150131eb</sys_ui_section>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 08:11:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Incident</caption>
+            <header>false</header>
+            <name>x_snc_nask_incid_0_incident_quality_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 07:34:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a313230c346d610d47c9b31150131eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_nask_incid_0_incident_quality_assessment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+            <sys_update_name>sys_ui_section_9a313230c346d610d47c9b31150131eb</sys_update_name>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 07:34:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace NASK Incident Tools 0" name="workspace-nask-incident-tools-0">71d9eaf033c2d6107c489b46159f70f3</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

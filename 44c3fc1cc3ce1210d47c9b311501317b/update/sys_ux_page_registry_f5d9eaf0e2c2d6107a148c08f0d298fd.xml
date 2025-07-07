@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_panel>b9d9eaf0d7c2d610f622cfbac82890fc</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>nask-incident-tools</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-21 07:01:54</sys_created_on>
+        <sys_id>f5d9eaf0e2c2d6107a148c08f0d298fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[NASK] Incident Tools</sys_name>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name>sys_ux_page_registry_f5d9eaf0e2c2d6107a148c08f0d298fd</sys_update_name>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-21 07:01:54</sys_updated_on>
+        <title>[NASK] Incident Tools</title>
+    </sys_ux_page_registry>
+</record_update>

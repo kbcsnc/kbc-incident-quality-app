@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_attribute">
+    <sys_one_extend_definition_attribute action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <apply_filter>false</apply_filter>
+        <attribute_label/>
+        <capability display_value="84d0bc472b71961009dcf531de91bff5_[NASK] ">f6a5704f2b71961009dcf531de91bf4f</capability>
+        <choice_list/>
+        <contains_large_input>false</contains_large_input>
+        <data_type>string</data_type>
+        <default_value/>
+        <definition/>
+        <description/>
+        <group/>
+        <hidden>false</hidden>
+        <info/>
+        <label>Notes Count</label>
+        <mandatory>false</mandatory>
+        <name>notes_count</name>
+        <order/>
+        <schema/>
+        <sys_class_name>sys_one_extend_definition_attribute</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-20 08:29:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0744bd28c34a9210d47c9b311501313c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>notes_count</sys_name>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name>sys_one_extend_definition_attribute_0744bd28c34a9210d47c9b311501313c</sys_update_name>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-20 08:29:29</sys_updated_on>
+        <translate>false</translate>
+        <truncate>false</truncate>
+        <type>output</type>
+        <user_query>false</user_query>
+    </sys_one_extend_definition_attribute>
+    <sys_translated_text action="delete_multiple" query="documentkey=0744bd28c34a9210d47c9b311501313c"/>
+</record_update>

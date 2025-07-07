@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <collapse_attachment>false</collapse_attachment>
+        <document_match_count/>
+        <document_match_threshold/>
+        <enable_exact_match>true</enable_exact_match>
+        <enable_semantic_search>false</enable_semantic_search>
+        <evam_definition display_value="AI Search For Next Search">f78b729b53d801109fa9ddeeff7b1201</evam_definition>
+        <filter_genius_results_by_search_source>false</filter_genius_results_by_search_source>
+        <genius_results_limit>1</genius_results_limit>
+        <hit_highlighting>false</hit_highlighting>
+        <log_signals_server_side>false</log_signals_server_side>
+        <name>[NASK] Incident Tools AI Search Configuration</name>
+        <search_engine>ai_search</search_engine>
+        <search_profile display_value="nask-incident-tools Search Profile">35d9eaf008c2d61097a9202d8d5de3fd</search_profile>
+        <search_results_limit>10</search_results_limit>
+        <semantic_groupby/>
+        <semantic_search_mode/>
+        <semantic_type/>
+        <show_tab_counts>true</show_tab_counts>
+        <spell_check>true</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-21 07:01:55</sys_created_on>
+        <sys_id>f1d9eaf004c2d6109f67c960ccc83df4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[NASK] Incident Tools AI Search Configuration</sys_name>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name>sys_search_context_config_f1d9eaf004c2d6109f67c960ccc83df4</sys_update_name>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-21 07:01:55</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=f1d9eaf004c2d6109f67c960ccc83df4"/>
+</record_update>

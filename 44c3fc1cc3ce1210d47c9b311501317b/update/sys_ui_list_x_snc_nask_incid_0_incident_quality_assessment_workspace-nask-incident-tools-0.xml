@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_nask_incid_0_incident_quality_assessment" version="2" view="workspace-nask-incident-tools-0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_snc_nask_incid_0_incident_quality_assessment" element="NULL" name="x_snc_nask_incid_0_incident_quality_assessment" parent="NULL" relationship="NULL" sys_domain="global" view="71d9eaf033c2d6107c489b46159f70f3">88e96234c3c2d610d47c9b31150131a9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 07:02:03</sys_created_on>
+            <sys_id>44e96234c3c2d610d47c9b31150131aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 07:02:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_snc_nask_incid_0_incident_quality_assessment" element="NULL" name="x_snc_nask_incid_0_incident_quality_assessment" parent="NULL" relationship="NULL" sys_domain="global" view="71d9eaf033c2d6107c489b46159f70f3">88e96234c3c2d610d47c9b31150131a9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 07:02:03</sys_created_on>
+            <sys_id>48e96234c3c2d610d47c9b31150131aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 07:02:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_snc_nask_incid_0_incident_quality_assessment" element="NULL" name="x_snc_nask_incid_0_incident_quality_assessment" parent="NULL" relationship="NULL" sys_domain="global" view="71d9eaf033c2d6107c489b46159f70f3">88e96234c3c2d610d47c9b31150131a9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 07:02:03</sys_created_on>
+            <sys_id>4ce96234c3c2d610d47c9b31150131aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 07:02:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>incident</element>
+            <list_id display_value="x_snc_nask_incid_0_incident_quality_assessment" element="NULL" name="x_snc_nask_incid_0_incident_quality_assessment" parent="NULL" relationship="NULL" sys_domain="global" view="71d9eaf033c2d6107c489b46159f70f3">88e96234c3c2d610d47c9b31150131a9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 07:02:03</sys_created_on>
+            <sys_id>40e96234c3c2d610d47c9b31150131ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 07:02:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>quality_classification</element>
+            <list_id display_value="x_snc_nask_incid_0_incident_quality_assessment" element="NULL" name="x_snc_nask_incid_0_incident_quality_assessment" parent="NULL" relationship="NULL" sys_domain="global" view="71d9eaf033c2d6107c489b46159f70f3">88e96234c3c2d610d47c9b31150131a9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 07:02:03</sys_created_on>
+            <sys_id>44e96234c3c2d610d47c9b31150131ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 07:02:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>quality_summary</element>
+            <list_id display_value="x_snc_nask_incid_0_incident_quality_assessment" element="NULL" name="x_snc_nask_incid_0_incident_quality_assessment" parent="NULL" relationship="NULL" sys_domain="global" view="71d9eaf033c2d6107c489b46159f70f3">88e96234c3c2d610d47c9b31150131a9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 07:02:03</sys_created_on>
+            <sys_id>48e96234c3c2d610d47c9b31150131ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 07:02:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assessment_record</element>
+            <list_id display_value="x_snc_nask_incid_0_incident_quality_assessment" element="NULL" name="x_snc_nask_incid_0_incident_quality_assessment" parent="NULL" relationship="NULL" sys_domain="global" view="71d9eaf033c2d6107c489b46159f70f3">88e96234c3c2d610d47c9b31150131a9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 07:02:03</sys_created_on>
+            <sys_id>4ce96234c3c2d610d47c9b31150131ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 07:02:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_nask_incid_0_incident_quality_assessment</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>super.man</sys_created_by>
+            <sys_created_on>2024-11-21 07:02:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88e96234c3c2d610d47c9b31150131a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_nask_incid_0_incident_quality_assessment</sys_name>
+            <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_nask_incid_0_incident_quality_assessment_workspace-nask-incident-tools-0</sys_update_name>
+            <sys_updated_by>super.man</sys_updated_by>
+            <sys_updated_on>2024-11-21 07:02:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace NASK Incident Tools 0" name="workspace-nask-incident-tools-0">71d9eaf033c2d6107c489b46159f70f3</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

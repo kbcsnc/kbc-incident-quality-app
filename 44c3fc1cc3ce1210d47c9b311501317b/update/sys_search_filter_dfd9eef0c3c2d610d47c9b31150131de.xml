@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Incident Quality Assessment">dfd9eef0c3c2d610d47c9b31150131c9</ais_search_source>
+        <label>Incident Quality Assessment</label>
+        <name>Incident Quality Assessment</name>
+        <order>200</order>
+        <search_context_config display_value="[NASK] Incident Tools AI Search Configuration">f1d9eaf004c2d6109f67c960ccc83df4</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-21 07:02:00</sys_created_on>
+        <sys_id>dfd9eef0c3c2d610d47c9b31150131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incident Quality Assessment</sys_name>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name>sys_search_filter_dfd9eef0c3c2d610d47c9b31150131de</sys_update_name>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-21 07:02:00</sys_updated_on>
+    </sys_search_filter>
+</record_update>

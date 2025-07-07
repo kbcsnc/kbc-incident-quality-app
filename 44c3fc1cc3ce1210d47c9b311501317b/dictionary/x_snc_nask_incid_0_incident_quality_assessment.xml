@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4997fc50c3025210d47c9b31150131bc" extends="task" label="Incident Quality Assessment" max_length="40" name="x_snc_nask_incid_0_incident_quality_assessment" text_index="true" type="collection">
+        <element label="Assessment Record" max_length="32" name="assessment_record" reference="x_snc_nask_incid_0_incident_quality_assessment_request" type="reference"/>
+        <element label="Notes Processed" max_length="40" name="notes_processed" type="integer"/>
+        <element choice="1" label="Quality Classification" max_length="40" name="quality_classification" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bad Quality" sequence="1" value="bad"/>
+                <element inactive_on_update="false" label="Good Quality" sequence="0" value="good"/>
+            </choice>
+        </element>
+        <element label="Incident" max_length="32" name="incident" reference="incident" type="reference"/>
+        <element label="Quality Summary" max_length="4000" name="quality_summary" type="string"/>
+    </element>
+</database>

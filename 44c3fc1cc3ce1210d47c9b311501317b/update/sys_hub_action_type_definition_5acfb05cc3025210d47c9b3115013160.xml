@@ -1,0 +1,2253 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>nask_assess_incident_quality</internal_name>
+        <label_cache>[{"name":"{{action.inc_sys_id}}","label":"action➛inc_sys_id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.start_date}}","label":"action➛start_date","type":"action","ref":"","reference_display":"","base_type":"glide_date","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Date","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"glide_date","uiUniqueId":"c87df49a-3aee-4d36-a797-9f43a3aa4a84"}},{"name":"{{action.end_date}}","label":"action➛end_date","type":"action","ref":"","reference_display":"","base_type":"glide_date","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.days_to_factor}}","label":"action➛days_to_factor","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d1d37407-6f1a-471b-84b6-7e46f02e3dc8].results}}","label":"step➛Script step➛results","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master_snapshot>4b27c9d4c3425210d47c9b3115013100</master_snapshot>
+        <master_snapshot_digest/>
+        <name>(NASK) Assess Incident Quality</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:01:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5acfb05cc3025210d47c9b3115013160</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>(NASK) Assess Incident Quality</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_5acfb05cc3025210d47c9b3115013160</sys_update_name>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-12-04 04:08:09</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=5acfb05cc3025210d47c9b3115013160"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5acfb05cc3025210d47c9b3115013160"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>5acfb05cc3025210d47c9b3115013160</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>29d58d54c3425210d47c9b3115013138</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-12-04 04:08:04</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a45d4613-7a55-444e-b057-866dfbfb2ad7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <variable display_value="Action Status">69d58d54c3425210d47c9b3115013124</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>5acfb05cc3025210d47c9b3115013160</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>65d58d54c3425210d47c9b3115013138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">e9d58d54c3425210d47c9b311501312d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5acfb05cc3025210d47c9b3115013160"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>results</field>
+        <id>5acfb05cc3025210d47c9b3115013160</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>6dd58d54c3425210d47c9b3115013137</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:46</sys_updated_on>
+        <table>var__m_sys_hub_action_output_5acfb05cc3025210d47c9b3115013160</table>
+        <value>{{step[d1d37407-6f1a-471b-84b6-7e46f02e3dc8].results}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>5acfb05cc3025210d47c9b3115013160</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>e1d58d54c3425210d47c9b3115013138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
+        <table>var__m_sys_hub_action_output_5acfb05cc3025210d47c9b3115013160</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>5acfb05cc3025210d47c9b3115013160</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>21d58d54c3425210d47c9b3115013138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
+        <table>var__m_sys_hub_action_output_5acfb05cc3025210d47c9b3115013160</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=5acfb05cc3025210d47c9b3115013160^sys_idNOT IN1dd54d54c3425210d47c9b31150131fb"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="(NASK) Assess Incident Quality">5acfb05cc3025210d47c9b3115013160</action>
+        <cid>d1d37407-6f1a-471b-84b6-7e46f02e3dc8</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:00</sys_created_on>
+        <sys_id>1dd54d54c3425210d47c9b31150131fb</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-20 09:22:29</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1dd54d54c3425210d47c9b31150131fb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1dd54d54c3425210d47c9b31150131fb</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-20 08:41:46</sys_created_on>
+        <sys_id>0717f5e0c38a9210d47c9b31150131aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-20 08:41:46</sys_updated_on>
+        <value/>
+        <variable display_value="">8717f5e0c38a9210d47c9b311501319c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1dd54d54c3425210d47c9b31150131fb</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>21d58d54c3425210d47c9b3115013120</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1dd54d54c3425210d47c9b31150131fb</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>e1d58d54c3425210d47c9b3115013120</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-20 09:22:29</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+var inputsPayload = {};&#13;
+inputsPayload['note_days_to_factor'] = inputs.days_to_factor;&#13;
+inputsPayload['incident_sysid'] = inputs.inc_sys_id;&#13;
+&#13;
+var capabilityId = '5d6f10432b31961009dcf531de91bf83'; &#13;
+var request = {&#13;
+	executionRequests: [{&#13;
+		payload: inputsPayload,&#13;
+		capabilityId: capabilityId,&#13;
+		meta: {&#13;
+			skillConfigId: 'ed6f1c832b31961009dcf531de91bf47'&#13;
+		}&#13;
+	}], &#13;
+	mode: 'sync' &#13;
+};&#13;
+&#13;
+try {&#13;
+	var response = sn_one_extend.OneExtendUtil.execute(request) || {}; &#13;
+	var skillResponse = ((response["capabilities"] || {})[capabilityId] || {})["response"]; &#13;
+	//outputs.results = JSON.stringify(skillResponse);&#13;
+	outputs.results = JSON.parse(skillResponse).model_output;&#13;
+} catch(e) {&#13;
+	gs.error(e);&#13;
+	gs.addErrorMessage('Something went wrong while executing skill.');&#13;
+}&#13;
+//action.setRedirectURL(current);&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1dd54d54c3425210d47c9b31150131fb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>1dd54d54c3425210d47c9b31150131fb</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>e9d58d54c3425210d47c9b311501311f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>days_to_factor</field>
+        <id>1dd54d54c3425210d47c9b31150131fb</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-20 08:41:46</sys_created_on>
+        <sys_id>8f17f5e0c38a9210d47c9b31150131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-20 08:41:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1dd54d54c3425210d47c9b31150131fb</table>
+        <value>{{action.days_to_factor}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>end_date</field>
+        <id>1dd54d54c3425210d47c9b31150131fb</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>2dd58d54c3425210d47c9b3115013120</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1dd54d54c3425210d47c9b31150131fb</table>
+        <value>{{action.end_date}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>inc_sys_id</field>
+        <id>1dd54d54c3425210d47c9b31150131fb</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>edd58d54c3425210d47c9b3115013120</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1dd54d54c3425210d47c9b31150131fb</table>
+        <value>{{action.inc_sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>1dd54d54c3425210d47c9b31150131fb</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>add58d54c3425210d47c9b311501311f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>start_date</field>
+        <id>1dd54d54c3425210d47c9b31150131fb</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>a1d58d54c3425210d47c9b3115013121</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1dd54d54c3425210d47c9b31150131fb</table>
+        <value>{{action.start_date}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_1dd54d54c3425210d47c9b31150131fb^id=1dd54d54c3425210d47c9b31150131fb"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=1dd54d54c3425210d47c9b31150131fb"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=1dd54d54c3425210d47c9b31150131fb"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=1dd54d54c3425210d47c9b31150131fb^sys_idNOT IN8717f5e0c38a9210d47c9b311501319c,add58d54c3425210d47c9b3115013100"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>days_to_factor</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">1dd54d54c3425210d47c9b31150131fb</model>
+        <model_id>1dd54d54c3425210d47c9b31150131fb</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_1dd54d54c3425210d47c9b31150131fb</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-20 08:41:46</sys_created_on>
+        <sys_id>8717f5e0c38a9210d47c9b311501319c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-20 09:04:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>inc_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">1dd54d54c3425210d47c9b31150131fb</model>
+        <model_id>1dd54d54c3425210d47c9b31150131fb</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_1dd54d54c3425210d47c9b31150131fb</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:00</sys_created_on>
+        <sys_id>add58d54c3425210d47c9b3115013100</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=1dd54d54c3425210d47c9b31150131fb^sys_idNOT INf52789d4c3425210d47c9b311501310e"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=edb4c601-8dc1-4708-9691-5db625fc30a4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>results</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>results</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">1dd54d54c3425210d47c9b31150131fb</model>
+        <model_id>1dd54d54c3425210d47c9b31150131fb</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_1dd54d54c3425210d47c9b31150131fb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:45</sys_created_on>
+        <sys_id>f52789d4c3425210d47c9b311501310e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1dd54d54c3425210d47c9b31150131fb"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>results</element>
+        <help/>
+        <hint/>
+        <label>results</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_1dd54d54c3425210d47c9b31150131fb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:45</sys_created_on>
+        <sys_id>b92789d4c3425210d47c9b3115013111</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=5acfb05cc3025210d47c9b3115013160^sys_idNOT IN4317f5e0c38a9210d47c9b3115013168,55d54d14c3425210d47c9b3115013159"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=f3184c41-c140-434b-9455-684fc7a02f12</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>days_to_factor</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>days_to_factor</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="(NASK) Assess Incident Quality">5acfb05cc3025210d47c9b3115013160</model>
+        <model_id>5acfb05cc3025210d47c9b3115013160</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_5acfb05cc3025210d47c9b3115013160</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-20 08:41:46</sys_created_on>
+        <sys_id>4317f5e0c38a9210d47c9b3115013168</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-20 09:04:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4317f5e0c38a9210d47c9b3115013168"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=35339ce0-4445-4d8f-9d0a-b0143403bdde</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>inc_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>inc_sys_id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="(NASK) Assess Incident Quality">5acfb05cc3025210d47c9b3115013160</model>
+        <model_id>5acfb05cc3025210d47c9b3115013160</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_5acfb05cc3025210d47c9b3115013160</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:00</sys_created_on>
+        <sys_id>55d54d14c3425210d47c9b3115013159</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=55d54d14c3425210d47c9b3115013159"/>
+    <sys_hub_action_output action="delete_multiple" query="model=5acfb05cc3025210d47c9b3115013160^sys_idNOT IN69d58d54c3425210d47c9b3115013124,e5d58d54c3425210d47c9b3115013129,e9d58d54c3425210d47c9b311501312d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=e43c40eb-57a4-4e10-a723-42ba6d74241d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="(NASK) Assess Incident Quality">5acfb05cc3025210d47c9b3115013160</model>
+        <model_id>5acfb05cc3025210d47c9b3115013160</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_5acfb05cc3025210d47c9b3115013160</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>69d58d54c3425210d47c9b3115013124</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=69d58d54c3425210d47c9b3115013124"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=69d58d54c3425210d47c9b3115013124"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=d0a4a454-79e2-476e-b6c1-c5d0e6cb2c51</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>results</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>results</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="(NASK) Assess Incident Quality">5acfb05cc3025210d47c9b3115013160</model>
+        <model_id>5acfb05cc3025210d47c9b3115013160</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_5acfb05cc3025210d47c9b3115013160</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>e5d58d54c3425210d47c9b3115013129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e5d58d54c3425210d47c9b3115013129"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e5d58d54c3425210d47c9b3115013129"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=a1011d4e-9e38-445a-9472-464ae35a09bb,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="(NASK) Assess Incident Quality">5acfb05cc3025210d47c9b3115013160</model>
+        <model_id>5acfb05cc3025210d47c9b3115013160</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_5acfb05cc3025210d47c9b3115013160</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>e9d58d54c3425210d47c9b311501312d</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-12-04 04:08:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e9d58d54c3425210d47c9b311501312d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e9d58d54c3425210d47c9b311501312d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5acfb05cc3025210d47c9b3115013160"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=5acfb05cc3025210d47c9b3115013160^sys_idNOT INa1d58d54c3425210d47c9b311501313a"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="(NASK) Assess Incident Quality">5acfb05cc3025210d47c9b3115013160</action_type_id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>a1d58d54c3425210d47c9b311501313a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a1d58d54c3425210d47c9b311501313a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>days_to_factor</element>
+        <help/>
+        <hint/>
+        <label>days_to_factor</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_5acfb05cc3025210d47c9b3115013160</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-20 08:41:46</sys_created_on>
+        <sys_id>0b17f5e0c38a9210d47c9b3115013178</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-20 08:41:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>inc_sys_id</element>
+        <help/>
+        <hint/>
+        <label>inc_sys_id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_5acfb05cc3025210d47c9b3115013160</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:00</sys_created_on>
+        <sys_id>19d54d54c3425210d47c9b31150131d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_5acfb05cc3025210d47c9b3115013160"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5acfb05cc3025210d47c9b3115013160</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>e5d58d54c3425210d47c9b3115013128</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>results</element>
+        <help/>
+        <hint/>
+        <label>results</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5acfb05cc3025210d47c9b3115013160</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>e9d58d54c3425210d47c9b311501312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5acfb05cc3025210d47c9b3115013160</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:28:01</sys_created_on>
+        <sys_id>edd58d54c3425210d47c9b3115013132</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_5acfb05cc3025210d47c9b3115013160"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=5acfb05cc3025210d47c9b3115013160^sys_idNOT INe727c9d4c3425210d47c9b311501317e"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="(NASK) Assess Incident Quality">5acfb05cc3025210d47c9b3115013160</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"e727c9d4c3425210d47c9b311501317e","name":"plan","plan_signature":null}}</plan>
+        <snapshot>17befc0dc35e5e10d47c9b3115013140</snapshot>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e727c9d4c3425210d47c9b311501317e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-12-04 04:08:10</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>nask_assess_incident_quality</internal_name>
+        <label_cache>[{"name":"{{action.inc_sys_id}}","label":"action➛inc_sys_id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.start_date}}","label":"action➛start_date","type":"action","ref":"","reference_display":"","base_type":"glide_date","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Date","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"glide_date","uiUniqueId":"c87df49a-3aee-4d36-a797-9f43a3aa4a84"}},{"name":"{{action.end_date}}","label":"action➛end_date","type":"action","ref":"","reference_display":"","base_type":"glide_date","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.days_to_factor}}","label":"action➛days_to_factor","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d1d37407-6f1a-471b-84b6-7e46f02e3dc8].results}}","label":"step➛Script step➛results","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master>true</master>
+        <name>(NASK) Assess Incident Quality</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="(NASK) Assess Incident Quality">5acfb05cc3025210d47c9b3115013160</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4b27c9d4c3425210d47c9b3115013100</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-12-04 04:08:09</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=4b27c9d4c3425210d47c9b3115013100"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4b27c9d4c3425210d47c9b3115013100"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>4b27c9d4c3425210d47c9b3115013100</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>1b27c9d4c3425210d47c9b3115013153</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-12-04 04:08:09</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a45d4613-7a55-444e-b057-866dfbfb2ad7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <variable display_value="Action Status">5b27c9d4c3425210d47c9b311501313f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>4b27c9d4c3425210d47c9b3115013100</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>5727c9d4c3425210d47c9b3115013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">db27c9d4c3425210d47c9b3115013148</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4b27c9d4c3425210d47c9b3115013100"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>results</field>
+        <id>4b27c9d4c3425210d47c9b3115013100</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>5f27c9d4c3425210d47c9b3115013152</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <table>var__m_sys_hub_action_output_4b27c9d4c3425210d47c9b3115013100</table>
+        <value>{{step[d1d37407-6f1a-471b-84b6-7e46f02e3dc8].results}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>4b27c9d4c3425210d47c9b3115013100</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>d327c9d4c3425210d47c9b3115013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <table>var__m_sys_hub_action_output_4b27c9d4c3425210d47c9b3115013100</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>4b27c9d4c3425210d47c9b3115013100</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>1327c9d4c3425210d47c9b3115013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <table>var__m_sys_hub_action_output_4b27c9d4c3425210d47c9b3115013100</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=4b27c9d4c3425210d47c9b3115013100^sys_idNOT IN8727c9d4c3425210d47c9b3115013121"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="(NASK) Assess Incident Quality">4b27c9d4c3425210d47c9b3115013100</action>
+        <cid>d1d37407-6f1a-471b-84b6-7e46f02e3dc8</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:51</sys_created_on>
+        <sys_id>8727c9d4c3425210d47c9b3115013121</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-20 09:22:31</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8727c9d4c3425210d47c9b3115013121"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8727c9d4c3425210d47c9b3115013121</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>1327c9d4c3425210d47c9b311501313b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8727c9d4c3425210d47c9b3115013121</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>d327c9d4c3425210d47c9b311501313b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-20 09:22:31</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+var inputsPayload = {};&#13;
+inputsPayload['note_days_to_factor'] = inputs.days_to_factor;&#13;
+inputsPayload['incident_sysid'] = inputs.inc_sys_id;&#13;
+&#13;
+var capabilityId = '5d6f10432b31961009dcf531de91bf83'; &#13;
+var request = {&#13;
+	executionRequests: [{&#13;
+		payload: inputsPayload,&#13;
+		capabilityId: capabilityId,&#13;
+		meta: {&#13;
+			skillConfigId: 'ed6f1c832b31961009dcf531de91bf47'&#13;
+		}&#13;
+	}], &#13;
+	mode: 'sync' &#13;
+};&#13;
+&#13;
+try {&#13;
+	var response = sn_one_extend.OneExtendUtil.execute(request) || {}; &#13;
+	var skillResponse = ((response["capabilities"] || {})[capabilityId] || {})["response"]; &#13;
+	//outputs.results = JSON.stringify(skillResponse);&#13;
+	outputs.results = JSON.parse(skillResponse).model_output;&#13;
+} catch(e) {&#13;
+	gs.error(e);&#13;
+	gs.addErrorMessage('Something went wrong while executing skill.');&#13;
+}&#13;
+//action.setRedirectURL(current);&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8727c9d4c3425210d47c9b3115013121</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-20 08:41:48</sys_created_on>
+        <sys_id>d71739e0c38a9210d47c9b3115013157</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-20 08:41:48</sys_updated_on>
+        <value/>
+        <variable display_value="days_to_factor">df1739e0c38a9210d47c9b311501313e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8727c9d4c3425210d47c9b3115013121"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>8727c9d4c3425210d47c9b3115013121</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>db27c9d4c3425210d47c9b311501313a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>days_to_factor</field>
+        <id>8727c9d4c3425210d47c9b3115013121</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-20 08:41:48</sys_created_on>
+        <sys_id>571739e0c38a9210d47c9b3115013157</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-20 08:41:48</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8727c9d4c3425210d47c9b3115013121</table>
+        <value>{{action.days_to_factor}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>end_date</field>
+        <id>8727c9d4c3425210d47c9b3115013121</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>1f27c9d4c3425210d47c9b311501313b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8727c9d4c3425210d47c9b3115013121</table>
+        <value>{{action.end_date}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>inc_sys_id</field>
+        <id>8727c9d4c3425210d47c9b3115013121</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>df27c9d4c3425210d47c9b311501313b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8727c9d4c3425210d47c9b3115013121</table>
+        <value>{{action.inc_sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>8727c9d4c3425210d47c9b3115013121</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>9f27c9d4c3425210d47c9b311501313a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>start_date</field>
+        <id>8727c9d4c3425210d47c9b3115013121</id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>9327c9d4c3425210d47c9b311501313c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8727c9d4c3425210d47c9b3115013121</table>
+        <value>{{action.start_date}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_8727c9d4c3425210d47c9b3115013121^id=8727c9d4c3425210d47c9b3115013121"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=8727c9d4c3425210d47c9b3115013121"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=8727c9d4c3425210d47c9b3115013121"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=8727c9d4c3425210d47c9b3115013121^sys_idNOT IN4727c9d4c3425210d47c9b3115013125,df1739e0c38a9210d47c9b311501313e"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>inc_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>inc_sys_id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">8727c9d4c3425210d47c9b3115013121</model>
+        <model_id>8727c9d4c3425210d47c9b3115013121</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8727c9d4c3425210d47c9b3115013121</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:51</sys_created_on>
+        <sys_id>4727c9d4c3425210d47c9b3115013125</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>days_to_factor</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>days_to_factor</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">8727c9d4c3425210d47c9b3115013121</model>
+        <model_id>8727c9d4c3425210d47c9b3115013121</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_8727c9d4c3425210d47c9b3115013121</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-20 08:41:48</sys_created_on>
+        <sys_id>df1739e0c38a9210d47c9b311501313e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-20 09:04:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8727c9d4c3425210d47c9b3115013121^sys_idNOT INdf27c9d4c3425210d47c9b3115013130"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=edb4c601-8dc1-4708-9691-5db625fc30a4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>results</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>results</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">8727c9d4c3425210d47c9b3115013121</model>
+        <model_id>8727c9d4c3425210d47c9b3115013121</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_8727c9d4c3425210d47c9b3115013121</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>df27c9d4c3425210d47c9b3115013130</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8727c9d4c3425210d47c9b3115013121"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>results</element>
+        <help/>
+        <hint/>
+        <label>results</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_8727c9d4c3425210d47c9b3115013121</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>5327c9d4c3425210d47c9b3115013134</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=4b27c9d4c3425210d47c9b3115013100^sys_idNOT IN4b27c9d4c3425210d47c9b3115013103,5b1739e0c38a9210d47c9b3115013122"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=35339ce0-4445-4d8f-9d0a-b0143403bdde</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>inc_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>inc_sys_id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="(NASK) Assess Incident Quality">4b27c9d4c3425210d47c9b3115013100</model>
+        <model_id>4b27c9d4c3425210d47c9b3115013100</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_4b27c9d4c3425210d47c9b3115013100</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:51</sys_created_on>
+        <sys_id>4b27c9d4c3425210d47c9b3115013103</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4b27c9d4c3425210d47c9b3115013103"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=f3184c41-c140-434b-9455-684fc7a02f12</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>days_to_factor</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>days_to_factor</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="(NASK) Assess Incident Quality">4b27c9d4c3425210d47c9b3115013100</model>
+        <model_id>4b27c9d4c3425210d47c9b3115013100</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_4b27c9d4c3425210d47c9b3115013100</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-20 08:41:47</sys_created_on>
+        <sys_id>5b1739e0c38a9210d47c9b3115013122</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-20 09:04:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5b1739e0c38a9210d47c9b3115013122"/>
+    <sys_hub_action_output action="delete_multiple" query="model=4b27c9d4c3425210d47c9b3115013100^sys_idNOT IN5b27c9d4c3425210d47c9b311501313f,d727c9d4c3425210d47c9b3115013144,db27c9d4c3425210d47c9b3115013148"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=e43c40eb-57a4-4e10-a723-42ba6d74241d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="(NASK) Assess Incident Quality">4b27c9d4c3425210d47c9b3115013100</model>
+        <model_id>4b27c9d4c3425210d47c9b3115013100</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_4b27c9d4c3425210d47c9b3115013100</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>5b27c9d4c3425210d47c9b311501313f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5b27c9d4c3425210d47c9b311501313f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5b27c9d4c3425210d47c9b311501313f"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=d0a4a454-79e2-476e-b6c1-c5d0e6cb2c51</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>results</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>results</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="(NASK) Assess Incident Quality">4b27c9d4c3425210d47c9b3115013100</model>
+        <model_id>4b27c9d4c3425210d47c9b3115013100</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_4b27c9d4c3425210d47c9b3115013100</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>d727c9d4c3425210d47c9b3115013144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d727c9d4c3425210d47c9b3115013144"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d727c9d4c3425210d47c9b3115013144"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=a1011d4e-9e38-445a-9472-464ae35a09bb,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="(NASK) Assess Incident Quality">4b27c9d4c3425210d47c9b3115013100</model>
+        <model_id>4b27c9d4c3425210d47c9b3115013100</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_4b27c9d4c3425210d47c9b3115013100</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>db27c9d4c3425210d47c9b3115013148</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-12-04 04:08:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=db27c9d4c3425210d47c9b3115013148"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=db27c9d4c3425210d47c9b3115013148"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=4b27c9d4c3425210d47c9b3115013100"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=4b27c9d4c3425210d47c9b3115013100^sys_idNOT IN9327c9d4c3425210d47c9b3115013155"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="(NASK) Assess Incident Quality">4b27c9d4c3425210d47c9b3115013100</action_type_id>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>9327c9d4c3425210d47c9b3115013155</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=9327c9d4c3425210d47c9b3115013155"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>days_to_factor</element>
+        <help/>
+        <hint/>
+        <label>days_to_factor</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_4b27c9d4c3425210d47c9b3115013100</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-20 08:41:47</sys_created_on>
+        <sys_id>1f1739e0c38a9210d47c9b3115013125</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-20 08:41:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>inc_sys_id</element>
+        <help/>
+        <hint/>
+        <label>inc_sys_id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_4b27c9d4c3425210d47c9b3115013100</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:51</sys_created_on>
+        <sys_id>8f27c9d4c3425210d47c9b3115013113</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_4b27c9d4c3425210d47c9b3115013100"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_4b27c9d4c3425210d47c9b3115013100</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>d727c9d4c3425210d47c9b3115013143</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>results</element>
+        <help/>
+        <hint/>
+        <label>results</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_4b27c9d4c3425210d47c9b3115013100</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>db27c9d4c3425210d47c9b3115013147</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_4b27c9d4c3425210d47c9b3115013100</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2024-11-19 10:33:52</sys_created_on>
+        <sys_id>df27c9d4c3425210d47c9b311501314d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_4b27c9d4c3425210d47c9b3115013100"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>5acfb05cc3025210d47c9b3115013160</sys_id>
+        <latest_snapshot>4b27c9d4c3425210d47c9b3115013100</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch3-hotfix1-11-13-2024_11-19-2024_1208.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>
