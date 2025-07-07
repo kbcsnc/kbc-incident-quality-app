@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config_status">
+    <sn_nowassist_skill_config_status action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <in_mobile_active>false</in_mobile_active>
+        <in_mobile_roles/>
+        <in_product_active>false</in_product_active>
+        <in_product_roles/>
+        <skill_config display_value="Incident Quality Checker">26a91dde2ba6661024d5f3d0de91bf19</skill_config>
+        <sys_class_name>sn_nowassist_skill_config_status</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:45:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>eea91dde2ba6661024d5f3d0de91bf1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_status_eea91dde2ba6661024d5f3d0de91bf1a</sys_update_name>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:45:02</sys_updated_on>
+    </sn_nowassist_skill_config_status>
+</record_update>

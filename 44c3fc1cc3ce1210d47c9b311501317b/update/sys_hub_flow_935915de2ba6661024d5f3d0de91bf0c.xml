@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1590000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>84d0bc472b71961009dcf531de91bff5</copied_from>
+        <copied_from_name>(NASK) Get Journal Entries 1</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>nask_get_journal_entries</internal_name>
+        <label_cache>[{"name":"subflow.incident_sys_id","label":"Input➛incident_sys_id","reference":"","reference_display":"","type":"GUID","base_type":"GUID","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"06335cd3-9f5e-4494-b0de-42a525b4ef03"}},{"name":"subflow.incident.sys_id","label":"Input➛incident➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"incident","column_name":"sys_id","usedInstances":{}},{"name":"subflow.incident.sys_created_by","label":"Input➛incident➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"incident","column_name":"sys_created_by","usedInstances":{}},{"name":"e1ad3ed1-e0e4-4455-a066-2f6cff76492b.Records","label":"2 - Look Up Records➛Journal Entry Records","reference":"sys_journal_field","reference_display":"Journal Entry","type":"records","base_type":"records","usedInstances":{"36d39bca-9592-4320-b369-6637c809bfc9":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.compiled_notes","label":"Flow Variables➛Compiled Notes","type":"string","base_type":"string","usedInstances":{"fbe42d64-7e00-42ee-a5d9-48538417acec":["compiled_notes-0"],"9d3fac6e-e6b3-4247-8243-ebd9e46dba42":["quality_assessment-0","notes-0"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"176e480f-2557-4a07-bf3a-0179b2c7667e"}},{"name":"flow_variable.start_datex","label":"Flow Variables➛start_datex","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"e1ad3ed1-e0e4-4455-a066-2f6cff76492b":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"120d2b2a-c593-4161-9ea0-2ed12dc6a0da"}},{"name":"flow_variable.end_datex","label":"Flow Variables➛end_datex","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"e1ad3ed1-e0e4-4455-a066-2f6cff76492b":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"fd71ede3-1357-4067-b07f-d52c5f1717d3"}},{"name":"subflow.start_date","label":"Input➛start_date","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ad4bac07-f098-4379-b96d-9a4f8ae12eaa"}},{"name":"subflow.inc_sys_id","label":"Input➛inc_sys_id","type":"string","base_type":"string","usedInstances":{"1113c987-5092-491a-b002-ae55a0d69e95":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"694d41ae-25ff-4a35-ba39-8c702e7ff029"}},{"name":"1113c987-5092-491a-b002-ae55a0d69e95.Record","label":"1 - Look Up Record➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1113c987-5092-491a-b002-ae55a0d69e95.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"subflow.end_date","label":"Input➛end_date","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"97c4aac9-1011-4504-b6aa-66ec8bf82e6d"}},{"name":"flow_variable.count_of_notes","label":"Flow Variables➛Count of Notes","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"fbe42d64-7e00-42ee-a5d9-48538417acec":["count_of_notes-1"],"9d3fac6e-e6b3-4247-8243-ebd9e46dba42":["notes_count-1"],"c90bb636-1a30-4c34-a6f5-89a8de861388":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6a501e50-b830-4264-97ed-eda1bd8094c0"}}]</label_cache>
+        <master_snapshot>2a3a59122be6661024d5f3d0de91bfee</master_snapshot>
+        <master_snapshot_digest/>
+        <name>(NASK) Get Journal Entries</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>935915de2ba6661024d5f3d0de91bf0c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>(NASK) Get Journal Entries</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name>sys_hub_flow_935915de2ba6661024d5f3d0de91bf0c</sys_update_name>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:17</sys_updated_on>
+        <type>subflow</type>
+        <updation_source/>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=935915de2ba6661024d5f3d0de91bf0c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=935915de2ba6661024d5f3d0de91bf0c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_935915de2ba6661024d5f3d0de91bf0c^id=935915de2ba6661024d5f3d0de91bf0c"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=935915de2ba6661024d5f3d0de91bf0c"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=935915de2ba6661024d5f3d0de91bf0c^sys_idNOT IN135915de2ba6661024d5f3d0de91bf1d"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>935915de2ba6661024d5f3d0de91bf0c</id>
+        <name>(NASK) Get Journal Entries</name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:43</sys_created_on>
+        <sys_id>135915de2ba6661024d5f3d0de91bf1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:43:43</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=135915de2ba6661024d5f3d0de91bf1d"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=935915de2ba6661024d5f3d0de91bf0c^sys_idNOT IN2f5915de2ba6661024d5f3d0de91bfa0,ef5915de2ba6661024d5f3d0de91bf9c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=694d41ae-25ff-4a35-ba39-8c702e7ff029</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>inc_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>inc_sys_id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</model>
+        <model_id>935915de2ba6661024d5f3d0de91bf0c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_935915de2ba6661024d5f3d0de91bf0c</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:44</sys_created_on>
+        <sys_id>2f5915de2ba6661024d5f3d0de91bfa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:43:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2f5915de2ba6661024d5f3d0de91bfa0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1de74ca0-0458-4ea3-9955-ad61d05296de</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>days_to_factor</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>days_to_factor</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</model>
+        <model_id>935915de2ba6661024d5f3d0de91bf0c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_935915de2ba6661024d5f3d0de91bf0c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:44</sys_created_on>
+        <sys_id>ef5915de2ba6661024d5f3d0de91bf9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:43:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ef5915de2ba6661024d5f3d0de91bf9c"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=935915de2ba6661024d5f3d0de91bf0c^sys_idNOT INaf5915de2ba6661024d5f3d0de91bfa5,eb5915de2ba6661024d5f3d0de91bfa9"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=bbe22e1e-a126-41ab-b899-9854e7a7c870</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>notes_count</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Notes Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</model>
+        <model_id>935915de2ba6661024d5f3d0de91bf0c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_935915de2ba6661024d5f3d0de91bf0c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:45</sys_created_on>
+        <sys_id>af5915de2ba6661024d5f3d0de91bfa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:43:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=af5915de2ba6661024d5f3d0de91bfa5"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9a208cc5-765e-4e39-bc3f-5f49361993d0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>notes</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Notes</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</model>
+        <model_id>935915de2ba6661024d5f3d0de91bf0c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_935915de2ba6661024d5f3d0de91bf0c</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:45</sys_created_on>
+        <sys_id>eb5915de2ba6661024d5f3d0de91bfa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:43:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=eb5915de2ba6661024d5f3d0de91bfa9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=935915de2ba6661024d5f3d0de91bf0c"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=935915de2ba6661024d5f3d0de91bf0c"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=935915de2ba6661024d5f3d0de91bf0c^sys_idNOT IN3f5915de2ba6661024d5f3d0de91bfce,f35915de2ba6661024d5f3d0de91bfd0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment>Look up incident record based on sys_id passed in from subflow inputs</comment>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:45</sys_created_on>
+        <sys_id>3f5915de2ba6661024d5f3d0de91bfce</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:28</sys_updated_on>
+        <ui_id>1113c987-5092-491a-b002-ae55a0d69e95</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjlfyl+zcFgkMBOg2QJPtpS0ISqRiojSpklTSxPB/36FI2YKt2BbWARL0yOGQfDPz3pDSt1XISHgZklk0y2ez8TSJouEwiiaTYYbjNB1OsjRK8SjshQIvKXganHIKw0fMSztmImOECgMmwnTB8fNXP3OznckWjBNFRXj57UcvLLCCvQxV4eVqZ+pUMBynlIPrvUezA848F5shquac7VNzWfDZTUhFLJSoF9LfhgpCAUOOuaa9cIkFwUaq541FUUxuBd8aFgwivAxD6/xbsxc4dxpZv5xCVBl1c5sh8kly5vwaG3xnVJmZUnnXbCFZRrXLB6E5Lrm5atqcw21hmBRuiQvbrZa8XIrPLh3hZoO6JmApNYCghQ3UIvdh5HcL+fSlRjlnosqJn+Qyw3wzwsYolpbG4lmFlNMlbISWuCiYeECFko+sWgxYlv0HDoN+zuUTHKrZg+jjzALvQ15xfw7268r8FStmo/gHtoHFAIhxYAhyJdSyVFUqH1HGS11NKCy02ytc90L9rK841nobOaQc/SotbpcHHzFySbNLMsUK8zds8Uh9cOterYfxQQrOtpTLpCDMotANUQAaxMj3EhaT1UqXqU1AH6SC3Mx6vS+Xk9Z0FNLxKGohXTXDaAvNS2rP9qltAy+p+GySGkXRRxIVHP7+NNVdJS4FR6QSk4MkI1s+aakMcrlsaGVfCZ15fgKEmue3lplB+vwaKk/znFFO2m6OuZ3YuTkGf+bN8S5JDoAIctVjgjNRPQMA6Fuxf3yQemm8w7OKXo17wtqwzvY1gAMjg5fOSjgBTq2EOzg7uHd4WiDW/b6izG6vr41eAMOzCWA4OI8AVpswN4lsyXn98rPVrP1frD/e9QcKNhbE6zaBdToz7nrmYL0v4GEnBTfJ5mauX+HcmZ+Iryiy95YtYAFL/XnI6Rc9MfJAzfb02otI84T5z7Z5zzhUF6oK7w2em/HBL5608dxkOVpC5VgBr2JFMyCHRlhRlMtSEOTfw1si2UrmTGnjnfcbzRcK+hGBBGEGZkGDyjvYeHe8iI/HUafyJg/qQPxpOoBAgiqQYBNIt7C7NK3RGR+n525ac8x4VQ341Cka5aRKSfVK4zpSyAOMOLGrnQgqPiuo/9/22iTQ2v6OYP0Q383nb00ZxelogCfJMI6jKI5IEk2TJJ5O0nyCk1G+1ShCGj5WiYSdc6AKbI9qatR1jvb7j2upXRvNCahqCl5LYT+qB4kJLCyob1DDOg7cN5RUSk6x2Oko93BP/DX3+D1fx++uq3yIv0glu9/NtDO15vqt3g0l+1ewXyW9sRSb0mgwjUl2MU3i5GKUk8nFjODxBZ6l42RIaDbKz/kU+PEf9eSqR4sVAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3f5915de2ba6661024d5f3d0de91bfce"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment>Look up agent comments and work notes for specific incident between 2 dates, ignore end user/system comments</comment>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:45</sys_created_on>
+        <sys_id>f35915de2ba6661024d5f3d0de91bfd0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:28</sys_updated_on>
+        <ui_id>e1ad3ed1-e0e4-4455-a066-2f6cff76492b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VYbW/bNhD+K5w+ba2hSHYSN+6XBk3SdkgbzPa6D3UrUBJlM6FJlaSSuEH++44vkl3LyWLMA1oMcODoeHd87uWhjv50F9A8GAQviv0owvHBi34U9XpRdHjYy3Ccpr3DLI3S/TToBBzPCWhqnDICj9eYVeZZLVRyKSrJMUsKSlgOazlVJcOLj17ld7eMTrmWC1jOZpTlkvBg8OlzJyixBM+ayGBwt7b0VGgMp4SB6thjW4OqF2XzmNg1JztfNUMf3IKQuYESdQJyqwnPCWAoMFOkE8wxz7EWEEMtkQTnF5wtBTPKNXgMjPKtot9g3xeR0SsIRJURt9Y8Jj5TTlycYI1HWlaZrqRXzWaCZkS5fOSkwBXTr1dlTuGi1FRwZ+LCdtaCVXP+waUjaBzUhQFJpQAEKU2gBrkPoxjNxM2wRnlGuc2JX2Qiw6x5wlpLmlba4LkLCCNzcJTMcVlSPk1KKa6pNQYs83DK4CEsmLiBTRWd8hBnBngIecXhGchPrPgjltRE8R7cgDEAogw6JHElVNBPNpXXScYqZRck5sr5Cu47pilfM6zUMnJIefK1MrhdHnzEiUuaMckkLfUxuLgmTXBOaALzSb3bpHd/f995Eo8OomVzZoLn1OBVK2Rqc2fHdLEIarq8XoWwCZYnTkt2vsmBJ068M+JAHD8TdWDzH48523PBpaBFCBfdkg8rPdEixfe6wd6zCX/27DiDvCtkkO4dW+jIQEeVgmiRnhFU5ImViPSSZDpEI+sAzYHhSBKoK0cYWaaEyHi8MA2HeDVP4YsqJIpCEY3SBXoeI8rRqZRCorfQe8xsMSIuYRbMNabMnvrCVl8h302oKgFYKQGqsZkE4SRAuAC61fCMObnF85KRAaCRSM2E1JD8DE0qoFxeK4ZQ3emUyDCrJDSDDq2iqZ6NC3Z9aXz5yBovVmj+huRrRQEIemNKPyQZEAxBUwlg1h8VkQtIigK00EqoBmRtA2zr4NCYWnxp7TwaHw/Ho7/ejd9C9+lJYDbdm3ATDuVZYt7pNF+PJ4mThAlxlVRlIi2c0H85/ZdLB9DmDFK2lYMMzgRN8iRdeEdcaCAYXqh1P6pKLREoLyutQqOSaJEUELeQYAzdsbfn82pMu/2aXDR3rpz0+TLW507yZRWI4FbZJ/ISX2OXv8HU7KnJG8KJhO9fJxNn7b0+AFNpbIoABn6z2qxT/xNFA/upn3/bBCfbERzg/KNgur3BwRF8NoNJF7+0MumKXmfyYvi9vlMfLeB1PX9g8cOf5+fOGoo44f++gg3Kf9x2J8G1HAk+PD0/Hr/7ePpm/AraVBQ3hFy9wlPxyrtuetxG3OpbF5rznvW7Ub9H8jjFUdyNo2581D8iedrt7adZ2sc+c8HKNJL1H50FDpavfWUOCPfKW5vtl7G0h5PW+najyhPg1aOKO+vTxUOI/aRiLyCbRvwzs7A24nf/nyP+DzmnAKDcXR/hfILXtb2vAdDdDTBuUq+ZET0+JR+t9ZltrxVeGBkcv21GYKQF+rY1E54Ap2bCCPZGY4dnA8R6ZLctsz6u10JPgN7OCNDr7oYAd02YTSI35Ly+optq1vrfjD5e1zcjz8rV5H4TwbbaM952z+59m8C9rRi82mxu5eSBntvxXf4BRnb+yyNgBqZ+v8TxN7mh+ZTo5e61Vi70DWZXm9Z9xyV1oWx4u/tdoDlF9h+l7WG8pCgwBUZeBcVbve7HUdQ+Qpxwu/PjCUDqXLzHt2jYINkIz58hQHMytYVZPUTeNVLf4fs7vPD/sK9RKEr0IAHjjlv9KX5L2x0LPv8NiogZ0j0WAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f35915de2ba6661024d5f3d0de91bfd0"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=935915de2ba6661024d5f3d0de91bf0c"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=935915de2ba6661024d5f3d0de91bf0c^sys_idNOT IN3f5915de2ba6661024d5f3d0de91bfaf,3f5915de2ba6661024d5f3d0de91bfcb,3f5915de2ba6661024d5f3d0de91bfcd,775915de2ba6661024d5f3d0de91bfcc,f35915de2ba6661024d5f3d0de91bfb1,f35915de2ba6661024d5f3d0de91bfcb,f35915de2ba6661024d5f3d0de91bfcd"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b3253c0f2b71961009dcf531de91bfcf</block>
+        <comment>For each comment and work note, append to a string variable</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:45</sys_created_on>
+        <sys_id>3f5915de2ba6661024d5f3d0de91bfaf</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:13</sys_updated_on>
+        <ui_id>36d39bca-9592-4320-b369-6637c809bfc9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51STW/bMAz9Lzonhr/qLbkVGAr0sBXoil6GwqAlKhEmS5okJ/UM//dRsZMNPe5k85F8fE/kxOwQ3RDDi70PQR0M2/942zBlEkb/EzPQI9szFbEPbMNOoIcUTxMWICoUxRZzrLd1fXe3hbxptqVsuJSfmnpXdtkzcutFmGdqFSo4DePr/zPwo9LC4yrSgSdtET3bTx9ScXTYauhQ06CVgfqVoLDYCbkr8h2vyqYq87z8XBddU3VFKSpA0VDdtfNxNf3hDRI7hf7GS5+kosw3DN8jGoE0SIIOuGE9GAHR+pHtox8I8AjiyejxVnFUJhIdS7XvQf0m7iLPU6FEcsRxSd7Cdn3IBeZHqzg+uaisWZAInV57uNVDb74t8tMKUMKg43UFhAyB+NAlzUnFKkl+P9rz83XggzIXf2tSWw76FkGMXnVDxJDWgBp7Imp7cE6ZQ+u8PalLM2nps4OmIJPanmloOrcMeBKe0RNB9kD4lwv8Cl4lF1+Jhprni/v215DmLj5Wxe1imgoC98rFe6I74Spufkv3ujCF5TAEchVo4EvCHq9XnhIjLVnxf6Gz9T+T1L/Y/AeBFQ4vLwMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bf253c0f2b71961009dcf531de91bfd1</block>
+        <comment>Just make sure we reset the string variable</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</flow>
+        <flow_variables_assigned>compiled_notes,count_of_notes</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:45</sys_created_on>
+        <sys_id>3f5915de2ba6661024d5f3d0de91bfcb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:13</sys_updated_on>
+        <ui_id>fbe42d64-7e00-42ee-a5d9-48538417acec</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1XbWvbMBD+K0WfYyMnfonzrWwUAlsLa9YvoxjZOidiiuTactIs+L/vZDuv3UopYzCWb9FzJ93dc/fk8Jbo2hS1qWb6uqrEXJHJt8cBEcpi+HtLFFsCmZBMLwshgSdKG6jIgKyYrK1hu82lXicrVgqWSnBPHZsGXbmoCsk2D2+/kS2E5CX02RSsxCQMlGSyPTOZTQGJZClIfPjelELN8brgeOKjIPYCDsOUhWHo0aHPg3zEKYfYS/Ohj367ix/6DK5u++J+V7QNh3i1C6RLbrOiAwLPBhQHDJwzWcGALJnizOhys0dKYPxOyQOwEMrga8Q6P1fiBz49ppRazxywxAw66/6Y9Ex2cLbQIoO7wgitOsRYPnujlvVS3XZ12B5Azmppdj1ApK7wPShs1jaNPqf8fqHXX3YBb4RqC+yNUmdM7k/MIA1pbZnBvtRidkZOh3w6bw5IWGLEZMmKApGkKPVKtFEs3+5c4sFtJ4SDnUiXZbZCF9lk7g3iH1v4oR+fz/gMXrbhvirxVMPUNt+LQvDHNHeGQRA5PqORk+Yj5lAvitNhFoVhBKRpqU2ealtUR1JPR9Ixig5VVorCXGMKK9hX3oFYddMMjhRS24v5GxRy7PgrhbxbAVNlYN6y0UogzF+TwCg+kQAmdaXzlxI4q6qXgNhH+uMa8P91BRy4OZXAoTt/RQMhC6gHAXXS8Yg6/jD0nTgC7gBnXsrHNPYz+l4NNI92vrvo3Z5oB+6Vv87Lvrjsi8u+sPvihVIue+OyN/6jvcEhExVmNbMpTHdfGtawweER2TG01uV3W88Ba34CrHQvarMMAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7b253c0f2b71961009dcf531de91bfd2</block>
+        <comment>Output the collated string variable</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned>notes,notes_count</outputs_assigned>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:45</sys_created_on>
+        <sys_id>3f5915de2ba6661024d5f3d0de91bfcd</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:13</sys_updated_on>
+        <ui_id>9d3fac6e-e6b3-4247-8243-ebd9e46dba42</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VVUWvbMBD+K0PPsbEd24nzVjYKga2FtevLKEaWzomYLLm2nDQL/u872UrShq2EMgZ7vE+nu+8+3Yf2RHem7kx7r6/aVqwUWXzfE8HJgkCRZGHCISpomqZhEMU8Kac84JCFRUkzMiGKVoCZShtoMdxQ2dl4vy+l3uYb2ghaSPCZrmohgedDYt9jKhdtLenu4fIbbC0kb8ASfJyQmjbY20BDFvuzI7OrIZe0AImF70wj1AqvXzrS4eKNm+lsRFscw/ZQVjfccogmBJ4NKA7YpqSyhQmpqOLU6GZ3RBqg/FbJE7AWymA1YpOfW/ETS8+DILCZJeBADMbTY5g73UaYrbVgcFsbodWIGKueO9Syq9TNSN8qDiXtpDkojkjXYj2oLWtLw3Eq79Z6+/XQ8FqoYUB3KDWj8hhRgzIUnVUGX6ET92fijMjn86cACRV2zCta14jkdaM3YuiCpCt/JTHwh33gYFfSp8xO6KOa1L9G/NMAP7hl+YJl8LJt902Jpw6W9qkzGgVzxhJvlibgxTDNvIJNSy8p42yahlmGz076Qdr8qbNDjSI5OfJRUUxoWSNqc4UUNnCcfARx6r6fOLvQ8s3dSs52KWe6Q9XfMk1naZR/Ns27TbFUBlaDZJcyf+WKDx8d9d/O4xwijj2cRcK/ZpH4fzfISZvXDjm9yz+xSFFAFEEIHg2j1ItDWnjFPMu8bJ7EMKMzNp+92yI97pxQ9mMZ9++w1i7kwESLhO8ttnyRx3e4VIK9hLa6+WFHPWH9Lzs+Jba2BgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">59030abcc34a9610d47c9b311501314f</block>
+        <comment>Just set the notes count to zero if find no notes</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:45</sys_created_on>
+        <sys_id>775915de2ba6661024d5f3d0de91bfcc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:13</sys_updated_on>
+        <ui_id>c90bb636-1a30-4c34-a6f5-89a8de861388</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K8PPxsh2Hda8lY3CYFthLX3ZiriW5ERMljx9JM1M/vuu/JGENWWl9HFv1rm6955zdHCfmOC74N2duXJOrnSy/P6QJlJHDL/7REMrkmXCjObSS6PpAKTJBlSIBfzk0nUKdvdHhK2l4lZM0zqw2OOFTZb9XyW/6wRVUAuFjbfeSr3Cdsnx1BBo8kuWs7JYlAUhxfuLvF6UdV7wEgSUeG9u/DCTe/d5QNJnWcd9iLt5k7E80spJmohHLzQXuLoB5USatKA5eGN3B8QK4DdaHYG11H5U3MKjk79xdlFV8WIjUCOb7Dgc6WTV7JKRTNx0keCIeKjVbKFRodVfRx3RZNFAUP7E5OBwnugi6chiotTcrs3227zwWupB4FRUhoE6nMCjDXXwwsWHEUq0OIi20HVoDu2s2cihGbm02UrhIWuU2eLSmJQMWCSeoUeQXSP+cYDvwcqo4guOweaRZg1OMjqkCsd5ixL2gy30V4iERoGTFDq6gRccs7LzV7hnIybW+/RpJE/S2PcDw81EImMmxIEN1QZl7vc/AiEly5+G9uWNb5HtS6iaKifV+WxfLM5l+0yqnw908Y9Axyd4YZ4JIf8DfRpo6egYzEnbsPzVeX6I4R03uDE3XDDpkMhdxD7Nf+JY2GEAJDuFtsb+jBKO2P4P0n2fbdMFAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">33253c0f2b71961009dcf531de91bfd1</block>
+        <comment>Append each comment and work note to a string variable</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</flow>
+        <flow_variables_assigned>compiled_notes</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>36d39bca-9592-4320-b369-6637c809bfc9</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:45</sys_created_on>
+        <sys_id>f35915de2ba6661024d5f3d0de91bfb1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:13</sys_updated_on>
+        <ui_id>b53a2b70-c86d-4520-bac5-5a5c1dbf6e31</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1WTU8bMRD9K5aPkCybbwinqAUVqS1SQ7l00cq7O5u49dqLP4AU5b937N0NEKn0XuWU+Nkz896bySjPVDlbO2tu1MIYvpJ0/uOuR7n0GH5/ppJVQOc0V1XNBRSpVBYM7dEHJpy/wK8FN7Vgm9sXJF9zUWhos9VMYxILms6f967spoZUsAwEBi6t5nKF4bzAUzGanA0mBQwzNp1OB/FwXEzKUREXcDbIyuEY33WBH1py5GtL7m+kfTnETVdI6cKzinsUnizIArBwyYSBHq2YLJhVerNDNLDiWooXYM2lbfRW7Mnw35j6NI5j/7IElJi3buyOaetUZ5LiOVzXlivZIJZlonNQCVfJr40O7zGUzAn7ymNnMB/UnrWn0XIql2v1+K0reMllENheCpUzsTsxizZkzjuDfXH8Zs+cBvm83xwQUGHFtGJ1jUhaa/XAQxXvd7QSeIhKoR6RnZ+oiOVeYYRusugS8Y8BvmWae7lfMA0G+3LfJb93cOWbP5hNYXwal/3hZDLrj1k862fliPXjwewsG+az6XQGdBusTe+dF9WY1NqRNo7iA5NrXtsFUnhAcVY76LAwjG8HBJH33tOTo0QeHS3yHIwhXsrJImgjXhtxBu0gdg2kLNKAqOwn5DYiy5CAVM5YosE6LQkj4QcUEZ/x2o8hka7K8IMbosrSgCXZhhwPCJfkQmulySecSOFLLKFxNJB5YFx4H4kKg2RIO2PE1Uis1kjVxyQ0SihhJf4KO3o+HJ5YVQuYIxtNzFppi93JSeLieFR0DyNs/WoFOsqdxrGyUXjo2xt0YdVzn6tVtsviwZNE+szIAod3P20YEryO3rYhkcdIN0nkRTNpczyR411UOkrTUukUWL6OuIUqaidyFxe2wD+jgv+7mIQi3VZBw/acbrfbO7/omkFt1mFYTe9smMNaPKzFw1o8rMX/fi0WkHODGm+8y1fd/0V/scE1w/PX0KPSv7yqF2z7B0469s95CgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7c73b964c34a9210d47c9b311501313c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</flow>
+        <flow_variables_assigned>count_of_notes</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id>36d39bca-9592-4320-b369-6637c809bfc9</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:45</sys_created_on>
+        <sys_id>f35915de2ba6661024d5f3d0de91bfcb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:13</sys_updated_on>
+        <ui_id>843f94d9-1cb8-4936-8705-0b54b7687eea</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Wy27bMBD8FYLHxFbk+NHYORltgwZoEyBJc6kDgRJXNluKVPhw4gb+9y4pyXkUzbEnnywOyd2Z2eXCT1R7V3tnb/TcWrFUdPbjrkeFChh+P1HFKqAzWmivXKbLTGkHlvbomkkfNvCTC1tLtrl9RoqVkNxAG61mBoM4MHT29GbLbWrIJMtB4sVz5WCJpzA/x+WkHE8HYw7HOZtMJoP0eMTH5ZCnHKaDvBxO8Vx382NgR3RJLlp2/2Id8iEudpm04YFX2qPw6EBxwMwlkxZ6tGKKM6fNZocYYPxSyWdghYEaxRV7tOI3xh6l4VwJKLFo3dgts9apziQtCrisndCqQRzLZeeglr5SF42M4DGUzEv3wmNvMR7UgXMg0TIqr1f64apLeCZUlNduSl0wuVsx54zIfTAG6+LFzVtvGujrX9UBCRXmzCpW10Its9rotYh5kHaVLCUuklLqB+QXeiphRdCYoJssOUP8U4RvmRFB8DcM0+b7rsS9h/NYfTZOBzBO+/nJMO2Pjiej/vQD8D5wNsj5STodFSndRnOzex9kNTa1hmSNp3jAFkbUbo4U1ijPGQ8dFtvxdYcg8t55enSwUAcH86IAa0mQcjSP2kjQRrxFO4hbASl5FhGd/4TCJeQ6BiCVt44YcN4owkh8QgkJES9DGxLlqxx/hMVWLi04km/I4YAIRT4bow35gh0pQ4praByNZNZMyOAj0bGVLGm7jPgaidUGqYY7C5osKGElvsOOXrgOj6yqJcyQjSF2pY3D6hRk4dN0yLuDCXbKEoufFN5gY7kkHgzljbow62mI1SrbRQng0UKFyMgC2/dt2NgkuJ28LgM5JAO824Zrrp7S7XZ7F+ZO0zXNdIqD4p33vp9S+ym1n1L7KfW/pxSHQlhMeBMkn3f/psLGBh+9KF5CD9r8Cimese0fhCwqypcJAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d9030abcc34a9610d47c9b3115013150</block>
+        <comment>Set the count of notes variable to 0</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</flow>
+        <flow_variables_assigned>count_of_notes</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id>c90bb636-1a30-4c34-a6f5-89a8de861388</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:45</sys_created_on>
+        <sys_id>f35915de2ba6661024d5f3d0de91bfcd</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:13</sys_updated_on>
+        <ui_id>efade574-cad8-40bd-b1ea-577fc0eabbf8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K0XPibET22vyVjYKga2FLevLKEaWrhIxWVL1kTQL+e+7sp20dGzvg75Z517dc+7RwUdiYrAx+LW58V5uNFn+eJwQqROG30eiaQdkSZiJOjRGNNoE8GRCdlTFVMjxm0tvFT08vILYViruYJxnqcMxARxZHt+UwsFCo2gLCm+udIANdqECjsdaVIui4jBraV3XRT4reSXmPOewKFoxX2Df+ebHpO/KiKu7Ud/fdCc+xOWFyTiedOUTAs8BNAdkFlR5mJCOak6DcYcL4oDye61egC0OwnEkNT97+Qtnl3nqE4ArMhhql2MzWjXAbGskg3sbpNEDEmirxjvMqNjpu2GNZDIIGlU4m4xI9DgPbNKcRIyKxLet2X89E95K3a83FpVhVF1ONAQn25iMwXeJcv3WmwH6/MfrgIIOOZuOWiv1prHO7GTPg7K7bKPwkAll9qgvpSqjLO2YoZs0u0X8Uw8/UCfTwl9wzMj3XcunCKv+9WmVF1Dl0/Z6nk/LWV1OFx+AT4HTouXX+aJkOTn15jZPMa012DQa0gyeYoNnTtpwgxJ2MO5+ekwJHtiHnPeB+0du3vP+nvf/O+8cmPSoap0krM5/+FQ4YHgkew3tjfuZ9nnBTr8BC5XbWCsGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=935915de2ba6661024d5f3d0de91bf0c"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=935915de2ba6661024d5f3d0de91bf0c^sys_idNOT IN6f5915de2ba6661024d5f3d0de91bf39,d35915de2ba6661024d5f3d0de91bf24"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=6a501e50-b830-4264-97ed-eda1bd8094c0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>count_of_notes</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Count of Notes</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</model>
+        <model_id>935915de2ba6661024d5f3d0de91bf0c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_935915de2ba6661024d5f3d0de91bf0c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:44</sys_created_on>
+        <sys_id>6f5915de2ba6661024d5f3d0de91bf39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:43:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=176e480f-2557-4a07-bf3a-0179b2c7667e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>compiled_notes</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Compiled Notes</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</model>
+        <model_id>935915de2ba6661024d5f3d0de91bf0c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_935915de2ba6661024d5f3d0de91bf0c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:44</sys_created_on>
+        <sys_id>d35915de2ba6661024d5f3d0de91bf24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:43:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>inc_sys_id</element>
+        <help/>
+        <hint/>
+        <label>inc_sys_id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_935915de2ba6661024d5f3d0de91bf0c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:45</sys_created_on>
+        <sys_id>2f5915de2ba6661024d5f3d0de91bfa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:43:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>days_to_factor</element>
+        <help/>
+        <hint/>
+        <label>days_to_factor</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_935915de2ba6661024d5f3d0de91bf0c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:44</sys_created_on>
+        <sys_id>635915de2ba6661024d5f3d0de91bfa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:43:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_935915de2ba6661024d5f3d0de91bf0c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>notes_count</element>
+        <help/>
+        <hint/>
+        <label>Notes Count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_935915de2ba6661024d5f3d0de91bf0c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:45</sys_created_on>
+        <sys_id>235915de2ba6661024d5f3d0de91bfa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:43:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>notes</element>
+        <help/>
+        <hint/>
+        <label>Notes</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_935915de2ba6661024d5f3d0de91bf0c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:43:45</sys_created_on>
+        <sys_id>fb5915de2ba6661024d5f3d0de91bfab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:43:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_935915de2ba6661024d5f3d0de91bf0c"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1614135000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>84d0bc472b71961009dcf531de91bff5</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>nask_get_journal_entries</internal_name>
+        <label_cache>[{"name":"subflow.incident_sys_id","label":"Input➛incident_sys_id","reference":"","reference_display":"","type":"GUID","base_type":"GUID","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"06335cd3-9f5e-4494-b0de-42a525b4ef03"}},{"name":"subflow.incident.sys_id","label":"Input➛incident➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"incident","column_name":"sys_id","usedInstances":{}},{"name":"subflow.incident.sys_created_by","label":"Input➛incident➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"incident","column_name":"sys_created_by","usedInstances":{}},{"name":"e1ad3ed1-e0e4-4455-a066-2f6cff76492b.Records","label":"2 - Look Up Records➛Journal Entry Records","reference":"sys_journal_field","reference_display":"Journal Entry","type":"records","base_type":"records","usedInstances":{"36d39bca-9592-4320-b369-6637c809bfc9":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.compiled_notes","label":"Flow Variables➛Compiled Notes","type":"string","base_type":"string","usedInstances":{"fbe42d64-7e00-42ee-a5d9-48538417acec":["compiled_notes-0"],"9d3fac6e-e6b3-4247-8243-ebd9e46dba42":["quality_assessment-0","notes-0"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"176e480f-2557-4a07-bf3a-0179b2c7667e"}},{"name":"flow_variable.start_datex","label":"Flow Variables➛start_datex","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"e1ad3ed1-e0e4-4455-a066-2f6cff76492b":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"120d2b2a-c593-4161-9ea0-2ed12dc6a0da"}},{"name":"flow_variable.end_datex","label":"Flow Variables➛end_datex","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"e1ad3ed1-e0e4-4455-a066-2f6cff76492b":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"fd71ede3-1357-4067-b07f-d52c5f1717d3"}},{"name":"subflow.start_date","label":"Input➛start_date","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ad4bac07-f098-4379-b96d-9a4f8ae12eaa"}},{"name":"subflow.inc_sys_id","label":"Input➛inc_sys_id","type":"string","base_type":"string","usedInstances":{"1113c987-5092-491a-b002-ae55a0d69e95":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"694d41ae-25ff-4a35-ba39-8c702e7ff029"}},{"name":"1113c987-5092-491a-b002-ae55a0d69e95.Record","label":"1 - Look Up Record➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1113c987-5092-491a-b002-ae55a0d69e95.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"subflow.end_date","label":"Input➛end_date","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"97c4aac9-1011-4504-b6aa-66ec8bf82e6d"}},{"name":"flow_variable.count_of_notes","label":"Flow Variables➛Count of Notes","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"fbe42d64-7e00-42ee-a5d9-48538417acec":["count_of_notes-1"],"9d3fac6e-e6b3-4247-8243-ebd9e46dba42":["notes_count-1"],"c90bb636-1a30-4c34-a6f5-89a8de861388":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6a501e50-b830-4264-97ed-eda1bd8094c0"}}]</label_cache>
+        <master>true</master>
+        <name>(NASK) Get Journal Entries</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2a3a59122be6661024d5f3d0de91bfee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:16</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2a3a59122be6661024d5f3d0de91bfee"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2a3a59122be6661024d5f3d0de91bfee"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_2a3a59122be6661024d5f3d0de91bfee^id=2a3a59122be6661024d5f3d0de91bfee"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=2a3a59122be6661024d5f3d0de91bfee"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2a3a59122be6661024d5f3d0de91bfee^sys_idNOT IN223a59122be6661024d5f3d0de91bfef"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2a3a59122be6661024d5f3d0de91bfee</id>
+        <name>(NASK) Get Journal Entries</name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:29</sys_created_on>
+        <sys_id>223a59122be6661024d5f3d0de91bfef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:47:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=223a59122be6661024d5f3d0de91bfef"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=2a3a59122be6661024d5f3d0de91bfee^sys_idNOT INe63a59122be6661024d5f3d0de91bff0,e63a59122be6661024d5f3d0de91bffc"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1de74ca0-0458-4ea3-9955-ad61d05296de</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>days_to_factor</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>days_to_factor</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="(NASK) Get Journal Entries">2a3a59122be6661024d5f3d0de91bfee</model>
+        <model_id>2a3a59122be6661024d5f3d0de91bfee</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2a3a59122be6661024d5f3d0de91bfee</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:29</sys_created_on>
+        <sys_id>e63a59122be6661024d5f3d0de91bff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:47:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e63a59122be6661024d5f3d0de91bff0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=694d41ae-25ff-4a35-ba39-8c702e7ff029</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>inc_sys_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>inc_sys_id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="(NASK) Get Journal Entries">2a3a59122be6661024d5f3d0de91bfee</model>
+        <model_id>2a3a59122be6661024d5f3d0de91bfee</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2a3a59122be6661024d5f3d0de91bfee</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:30</sys_created_on>
+        <sys_id>e63a59122be6661024d5f3d0de91bffc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:47:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e63a59122be6661024d5f3d0de91bffc"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=2a3a59122be6661024d5f3d0de91bfee^sys_idNOT INa63a99122be6661024d5f3d0de91bf0b,aa3a99122be6661024d5f3d0de91bf04"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9a208cc5-765e-4e39-bc3f-5f49361993d0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>notes</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Notes</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="(NASK) Get Journal Entries">2a3a59122be6661024d5f3d0de91bfee</model>
+        <model_id>2a3a59122be6661024d5f3d0de91bfee</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_2a3a59122be6661024d5f3d0de91bfee</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:30</sys_created_on>
+        <sys_id>a63a99122be6661024d5f3d0de91bf0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:47:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a63a99122be6661024d5f3d0de91bf0b"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=bbe22e1e-a126-41ab-b899-9854e7a7c870</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>notes_count</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Notes Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="(NASK) Get Journal Entries">2a3a59122be6661024d5f3d0de91bfee</model>
+        <model_id>2a3a59122be6661024d5f3d0de91bfee</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_2a3a59122be6661024d5f3d0de91bfee</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:30</sys_created_on>
+        <sys_id>aa3a99122be6661024d5f3d0de91bf04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:47:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=aa3a99122be6661024d5f3d0de91bf04"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2a3a59122be6661024d5f3d0de91bfee"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=2a3a59122be6661024d5f3d0de91bfee"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=2a3a59122be6661024d5f3d0de91bfee^sys_idNOT IN3a3a99122be6661024d5f3d0de91bf4c,f63a99122be6661024d5f3d0de91bf4b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment>Look up agent comments and work notes for specific incident between 2 dates, ignore end user/system comments</comment>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">2a3a59122be6661024d5f3d0de91bfee</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:31</sys_created_on>
+        <sys_id>3a3a99122be6661024d5f3d0de91bf4c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:47:31</sys_updated_on>
+        <ui_id>e1ad3ed1-e0e4-4455-a066-2f6cff76492b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VYbW/bNhD+K5w+ba2hSHYSN+6XBk3SdkgbzPa6D3UrUBJlM6FJlaSSuEH++44vkl3LyWLMA1oMcODoeHd87uWhjv50F9A8GAQviv0owvHBi34U9XpRdHjYy3Ccpr3DLI3S/TToBBzPCWhqnDICj9eYVeZZLVRyKSrJMUsKSlgOazlVJcOLj17ld7eMTrmWC1jOZpTlkvBg8OlzJyixBM+ayGBwt7b0VGgMp4SB6thjW4OqF2XzmNg1JztfNUMf3IKQuYESdQJyqwnPCWAoMFOkE8wxz7EWEEMtkQTnF5wtBTPKNXgMjPKtot9g3xeR0SsIRJURt9Y8Jj5TTlycYI1HWlaZrqRXzWaCZkS5fOSkwBXTr1dlTuGi1FRwZ+LCdtaCVXP+waUjaBzUhQFJpQAEKU2gBrkPoxjNxM2wRnlGuc2JX2Qiw6x5wlpLmlba4LkLCCNzcJTMcVlSPk1KKa6pNQYs83DK4CEsmLiBTRWd8hBnBngIecXhGchPrPgjltRE8R7cgDEAogw6JHElVNBPNpXXScYqZRck5sr5Cu47pilfM6zUMnJIefK1MrhdHnzEiUuaMckkLfUxuLgmTXBOaALzSb3bpHd/f995Eo8OomVzZoLn1OBVK2Rqc2fHdLEIarq8XoWwCZYnTkt2vsmBJ068M+JAHD8TdWDzH48523PBpaBFCBfdkg8rPdEixfe6wd6zCX/27DiDvCtkkO4dW+jIQEeVgmiRnhFU5ImViPSSZDpEI+sAzYHhSBKoK0cYWaaEyHi8MA2HeDVP4YsqJIpCEY3SBXoeI8rRqZRCorfQe8xsMSIuYRbMNabMnvrCVl8h302oKgFYKQGqsZkE4SRAuAC61fCMObnF85KRAaCRSM2E1JD8DE0qoFxeK4ZQ3emUyDCrJDSDDq2iqZ6NC3Z9aXz5yBovVmj+huRrRQEIemNKPyQZEAxBUwlg1h8VkQtIigK00EqoBmRtA2zr4NCYWnxp7TwaHw/Ho7/ejd9C9+lJYDbdm3ATDuVZYt7pNF+PJ4mThAlxlVRlIi2c0H85/ZdLB9DmDFK2lYMMzgRN8iRdeEdcaCAYXqh1P6pKLREoLyutQqOSaJEUELeQYAzdsbfn82pMu/2aXDR3rpz0+TLW507yZRWI4FbZJ/ISX2OXv8HU7KnJG8KJhO9fJxNn7b0+AFNpbIoABn6z2qxT/xNFA/upn3/bBCfbERzg/KNgur3BwRF8NoNJF7+0MumKXmfyYvi9vlMfLeB1PX9g8cOf5+fOGoo44f++gg3Kf9x2J8G1HAk+PD0/Hr/7ePpm/AraVBQ3hFy9wlPxyrtuetxG3OpbF5rznvW7Ub9H8jjFUdyNo2581D8iedrt7adZ2sc+c8HKNJL1H50FDpavfWUOCPfKW5vtl7G0h5PW+najyhPg1aOKO+vTxUOI/aRiLyCbRvwzs7A24nf/nyP+DzmnAKDcXR/hfILXtb2vAdDdDTBuUq+ZET0+JR+t9ZltrxVeGBkcv21GYKQF+rY1E54Ap2bCCPZGY4dnA8R6ZLctsz6u10JPgN7OCNDr7oYAd02YTSI35Ly+optq1vrfjD5e1zcjz8rV5H4TwbbaM952z+59m8C9rRi82mxu5eSBntvxXf4BRnb+yyNgBqZ+v8TxN7mh+ZTo5e61Vi70DWZXm9Z9xyV1oWx4u/tdoDlF9h+l7WG8pCgwBUZeBcVbve7HUdQ+Qpxwu/PjCUDqXLzHt2jYINkIz58hQHMytYVZPUTeNVLf4fs7vPD/sK9RKEr0IAHjjlv9KX5L2x0LPv8NiogZ0j0WAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3a3a99122be6661024d5f3d0de91bf4c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment>Look up incident record based on sys_id passed in from subflow inputs</comment>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">2a3a59122be6661024d5f3d0de91bfee</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:31</sys_created_on>
+        <sys_id>f63a99122be6661024d5f3d0de91bf4b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:47:31</sys_updated_on>
+        <ui_id>1113c987-5092-491a-b002-ae55a0d69e95</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjlfyl+zcFgkMBOg2QJPtpS0ISqRiojSpklTSxPB/36FI2YKt2BbWARL0yOGQfDPz3pDSt1XISHgZklk0y2ez8TSJouEwiiaTYYbjNB1OsjRK8SjshQIvKXganHIKw0fMSztmImOECgMmwnTB8fNXP3OznckWjBNFRXj57UcvLLCCvQxV4eVqZ+pUMBynlIPrvUezA848F5shquac7VNzWfDZTUhFLJSoF9LfhgpCAUOOuaa9cIkFwUaq541FUUxuBd8aFgwivAxD6/xbsxc4dxpZv5xCVBl1c5sh8kly5vwaG3xnVJmZUnnXbCFZRrXLB6E5Lrm5atqcw21hmBRuiQvbrZa8XIrPLh3hZoO6JmApNYCghQ3UIvdh5HcL+fSlRjlnosqJn+Qyw3wzwsYolpbG4lmFlNMlbISWuCiYeECFko+sWgxYlv0HDoN+zuUTHKrZg+jjzALvQ15xfw7268r8FStmo/gHtoHFAIhxYAhyJdSyVFUqH1HGS11NKCy02ytc90L9rK841nobOaQc/SotbpcHHzFySbNLMsUK8zds8Uh9cOterYfxQQrOtpTLpCDMotANUQAaxMj3EhaT1UqXqU1AH6SC3Mx6vS+Xk9Z0FNLxKGohXTXDaAvNS2rP9qltAy+p+GySGkXRRxIVHP7+NNVdJS4FR6QSk4MkI1s+aakMcrlsaGVfCZ15fgKEmue3lplB+vwaKk/znFFO2m6OuZ3YuTkGf+bN8S5JDoAIctVjgjNRPQMA6Fuxf3yQemm8w7OKXo17wtqwzvY1gAMjg5fOSjgBTq2EOzg7uHd4WiDW/b6izG6vr41eAMOzCWA4OI8AVpswN4lsyXn98rPVrP1frD/e9QcKNhbE6zaBdToz7nrmYL0v4GEnBTfJ5mauX+HcmZ+Iryiy95YtYAFL/XnI6Rc9MfJAzfb02otI84T5z7Z5zzhUF6oK7w2em/HBL5608dxkOVpC5VgBr2JFMyCHRlhRlMtSEOTfw1si2UrmTGnjnfcbzRcK+hGBBGEGZkGDyjvYeHe8iI/HUafyJg/qQPxpOoBAgiqQYBNIt7C7NK3RGR+n525ac8x4VQ341Cka5aRKSfVK4zpSyAOMOLGrnQgqPiuo/9/22iTQ2v6OYP0Q383nb00ZxelogCfJMI6jKI5IEk2TJJ5O0nyCk1G+1ShCGj5WiYSdc6AKbI9qatR1jvb7j2upXRvNCahqCl5LYT+qB4kJLCyob1DDOg7cN5RUSk6x2Oko93BP/DX3+D1fx++uq3yIv0glu9/NtDO15vqt3g0l+1ewXyW9sRSb0mgwjUl2MU3i5GKUk8nFjODxBZ6l42RIaDbKz/kU+PEf9eSqR4sVAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f63a99122be6661024d5f3d0de91bf4b"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=2a3a59122be6661024d5f3d0de91bfee"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=2a3a59122be6661024d5f3d0de91bfee^sys_idNOT IN3a3a99122be6661024d5f3d0de91bf47,3a3a99122be6661024d5f3d0de91bf49,3e3a99122be6661024d5f3d0de91bf45,3e3a99122be6661024d5f3d0de91bf46,723a99122be6661024d5f3d0de91bf48,723a99122be6661024d5f3d0de91bf4a,ba3a99122be6661024d5f3d0de91bf48"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7c73b964c34a9210d47c9b311501313c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">2a3a59122be6661024d5f3d0de91bfee</flow>
+        <flow_variables_assigned>count_of_notes</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id>36d39bca-9592-4320-b369-6637c809bfc9</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:31</sys_created_on>
+        <sys_id>3a3a99122be6661024d5f3d0de91bf47</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:16</sys_updated_on>
+        <ui_id>843f94d9-1cb8-4936-8705-0b54b7687eea</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1W207bQBD9ldU+QmIccikJTxEUFakFqaG8NMha746Tbde7Zi+BFOXfO2s7CVC1H1DlKfbZnZkzZ45HeaEm+Cp4d2emzsmFppPvDx0qdcTw+YVKQSeUdqhmJeATN0H7zBSZNh4c4iumAjRXhHSVYuv7PcKXUgkLbdaKWUziwdLJy7ujusqoGI57QwGnORuNRr30dCCGRV+kAsa9vOiPMaFiOSi8ehFpEFOQm5bG3+j5dRVxqT0ssHADfG6zXO9QY0WklXYoPHvQApBPwZSDDi2ZFswbu94hFpi41WoPLDF903DJnp38hRUHabxXAHbIWzF2r1krVAMXl8yzmbeB+2B3uhnJwTXaCChYUP7iNdZcuK28NLoJ8SxX22ijQqlvGkXoLsGruQSHJKCKjUbmbRvFbGmevm5ZXklda9IeKsOZ2r0x763MQ9QYZxnk3XuZG+hPoUFBiTWzklWV1IussmYl6zpIu0wWCl+SQpkn5Bf9mDAee0xwBCy5Qvyyhu+ZlbHhL5imrfdNy8cA17WR2DDtwTDt5mf9tDs4HQ264w8guiBYLxdn6XjAU7rpULd2F4o5t5cKZ5Q9hthoI1wrUdaoHEO4lZWfIqkVhuDUYIvVpn5rP0T+dZ+eHM310dGU41gdic2dTOtuSeyWBIcCEb8EUoisRkz+A7hPyKxOQMrgPLGAttGEkfpDTEjMeBvdTHQoc/yRDr+TwoEn+Zoc94jU5KO1xpJPaGwVS8yg0bgms2JSRWWJqc3lSGtWEiokVlmkGmPmNJlTwgr8mrf0Yjg8s7JSMEE2lrilsR7nxck8pGlfbC8m6J0F2iHhwaLVfFJfjAOv+8Kq5zFX29kuSwRP5jpmRhZo6Pdpa9vgcfJ2DOSY9DC2TdeEntPNZvMQt1fjo8OuO+y6w6477Lr/edcJ4NJhwbvY8vX2H148WONGkfw19GTsz1hij21+A/EPKVUrCgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d9030abcc34a9610d47c9b3115013150</block>
+        <comment>Set the count of notes variable to 0</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">2a3a59122be6661024d5f3d0de91bfee</flow>
+        <flow_variables_assigned>count_of_notes</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id>c90bb636-1a30-4c34-a6f5-89a8de861388</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:31</sys_created_on>
+        <sys_id>3a3a99122be6661024d5f3d0de91bf49</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:16</sys_updated_on>
+        <ui_id>efade574-cad8-40bd-b1ea-577fc0eabbf8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2V22obMRCGXyXo2jbrY2PfBYeAoU2gcXNTwjIrjWxRrbTRwY5r8u4dWesDKYU+gO9W30gz//zSsHtmY2hi8Et7571aGTb7+dphyiRG33umBJsx1mEGaqQvbqMJpZWlsQE98Q3omAIFfQvlGw27lwvE10oLh23eBhylCejYbP8pdKgzkeNpfyxwUMFkMukXg5EYy6EoBE77lRxOKaGGCjVtnSchN1bePLZC/iUw7JrElQm4osIZfG2zLE7UOpFkFR2G7wGNQNIjQXvssBqMgGDd7kQcgngy+gzWlD77VMO7V7+p4qhI+yRShxxz7LQsW6cylvcQ4Dm4yEN07Va+toqjz94IlBB1mF+yvOGpCcqafCRApY+nrY61ecyOsFOC48UQiZ5EYJMaTcrbNuTz2m6/H1U+KHPwpA1qy0GfVhCCU1VMHtNdRrX8bHNGfxuNGmuqWdbQNMqsysbZjTrUIdl1b6Vp0ZPabklfepE94KnHHl0B9B6I3x/wCziVGv5Gadp6P4x6i7g4PCQYF30cF93qdlh0R4PJqDv9gqKLAvqVuC2mI16wjw7zOz/X4P3ZKrqj8i2mRrNxrUVldjkd4U414Y5EbbB14+M1zUHWc52a69Rcp+Z/p0YgV550LpOoxfGvkwI7epmKX6Ktdb9Sh2f28Qd5dQ9vvwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b3253c0f2b71961009dcf531de91bfcf</block>
+        <comment>For each comment and work note, append to a string variable</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">2a3a59122be6661024d5f3d0de91bfee</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:30</sys_created_on>
+        <sys_id>3e3a99122be6661024d5f3d0de91bf45</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:16</sys_updated_on>
+        <ui_id>36d39bca-9592-4320-b369-6637c809bfc9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51TXW+jMBD8L34miK/SS96qVpUq3bVSWvXlVEWLvSTWGZuzTVIO8d9vHQit+tgn2PHu7MxgBmY633bevZgb5+Res83vt4hJHTB6H5iGBtmGSY+NYxE7gupCPQyYgshRpCtMsFgVxdXVCpKyXGV1yev6uizWWRVvkRsr3DjSqJCuVdC/fp+BH6QSFmeRLVjS5tGyzfDlSApakK5FvU6TNc+zMs+SJPtRpFWZV2kmckBREqGCChW1Pszuvpj1fRtKO0mYgZ/zzHZB6RFEZEnE8N2jFkjra1AOI9aAFuCN7dnG244AiyCetOqXjoPUnuhY6H138h9tTJMkNNZIhjhOh0u5m3Oc4PoOPDwTNfednVv5wUiObopCYA2d8refsanhqfXS6GnEQ6Uu00Z1jX6ckmALweWzEdI5EoFtMBqkzz7q54M5bS8q76U+hzIfKsNBLRV4b2XV+aBnYKiwIaJdA20r9X7XWnOU52HS0sR7RUVcK3OipeGKxsCD8Jhyhfie8Lsz/ApWBhe/iIaGx4i53t0qcO7DC4W4+9sFJZOz2cNuiiGMcCtbf0MLjjjLHd/CrZ+4l0y5dCThJWAPl38lHPR0gyT/DJ2M/RPEf2Djf1gZfHF1AwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">33253c0f2b71961009dcf531de91bfd1</block>
+        <comment>Append each comment and work note to a string variable</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">2a3a59122be6661024d5f3d0de91bfee</flow>
+        <flow_variables_assigned>compiled_notes</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>36d39bca-9592-4320-b369-6637c809bfc9</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:30</sys_created_on>
+        <sys_id>3e3a99122be6661024d5f3d0de91bf46</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:16</sys_updated_on>
+        <ui_id>b53a2b70-c86d-4520-bac5-5a5c1dbf6e31</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1WyW7bMBD9FYLHxFbkPXFORhY0QNsATZpLFQiUOLLZUqTCxYkb+N87lGRlKdpeevTJ4hNn5s2bp4Gfqfau8s7e6oW1Yqno/Nt9jwoVMHx+poLTOaU9qlgJ+JTrshISeKq0A4v4mkkPzRUubCXZ5u4FyVdCcgNt1ooZTOLA0Pnzu1d1FT6anAwmHIYZm06ng3g45pNixGMOJ4OsGI4xoWQZSLx61tIgn1saf6LnNlXArTNCLdvzxzbJzQ7UhgdScY/CkwPFAdkUTFro0ZIpzpw2mw4xwPi1ki/ASijXtFuyJyt+Yr3jOI7DzQKww7wVozumrVANXJwzx5CKz503nW5a5GAbbTgUzEt39hprLlxXTmjVhDiWyV20lr5UnxtFaJfg1Vy8RRJQhVYD97aR4malH7/sWF4KVavSvpQ6Z7I7MYfaZT5ojLP04vadzA3ym9AgocSKacmqCpG0Mnot6iphctFS4iEqpH5EdsGNEctDhxGOgEWXiJ/X8B0zIrT7CdNgcCj3VYkHD1fBRoPZFMbHcdEfTiaz/pjFs35WjFg/HsxOsmE+m05nQLc9ajf2TDJrX4TCCaUPPrTZyNYKlDYah5DciMotkNQaQ3BmsMNqS781HyJ/u0+PDhJ1cLDIcaiWhOaOFnW3JHRLvEWBiFsBKXhaIzr7DrmLyE2dgJTeOmIATaMII/VnGJGQ8Tq4mShfZvgjLNFFYcGRbEMOB0QocmGMNuQDGluGEjfQaFyTWTMhg7JE19aypLUq8RUSqwxSDTEJjRJKWIHf8o5eCIcnVlYS5sjGELvSxuG8cpL4OB7x3cUIzbBcgolyb9BoLqovhoHXfWHV05Cr7azLEsCjRIXMyALt/D5tbRt8Hb0dQ6IOkW6SqIvGe3M8kcMuKh2laaFNCixfRcJBGbUe7eLqDfPPqFr/LiahSLftoGF7Srfb7X1Yl41198t1v1z3y3W/XPfL9T8uVw65sNjjbVD5avcfNrzY4AoT+WvoUZsfoasXbPsLWXHRnw0LAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bf253c0f2b71961009dcf531de91bfd1</block>
+        <comment>Just make sure we reset the string variable</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">2a3a59122be6661024d5f3d0de91bfee</flow>
+        <flow_variables_assigned>compiled_notes,count_of_notes</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:31</sys_created_on>
+        <sys_id>723a99122be6661024d5f3d0de91bf48</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:16</sys_updated_on>
+        <ui_id>fbe42d64-7e00-42ee-a5d9-48538417acec</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1X22rjMBD9laLnOMiJL0nfSkuhsNvCttuXpRjZGidiZcm1pLTZ4H/fUexcelu6UBaW5s06GmnOnJmD8IpoZ2tnzY0+MUbMFDn+cTcgQnkMv1dEcHJMyIAoVgF+FbqqhQSeKW3BIL5g0vmN1aqU+iFbsEawXMLwaWDbYigXppZsefv+E8VcSN5Az6pmDZKw0JDj1bOtNUs+jqdhzGGUsyRJQjqKeFyOOeUwDfNyFOGFkuUgMfS0z3V02ZfxVnl2WXvc2EaoWb/+0l9yvQF1wz0pOiDwaEFxQDYlkwYGpGKKM6ub5RZpgPErJXfAXCjbaVyxRyN+Yb4JpdRHloAVFtDtbpdZL2QHl2fMMqTiCuuaPrSYa1GA6bThUDIn7ek+1gVc1VZo1R2xvgf9aS1dpS47Rcj2gk3fEHEGSUDtS/Xc+0LK67l++LZheS7UWpV+U+qCye2KWdQud15j7KUTN89k7pAXQoOECjNmFatrRLK60QuxzuI7N5xJXAzXU8XBT/OQFb7CIbaADc8RP1vDt/3IfcVr8LBP912JewcXfozCNIFoQstgFMdpEDGaBnk5ZgEN02k+KtIkSYG0A2KW5lQyY3ZCYYeye+fL7GTrBco6jf2RohG1PUFSC9hq0YGoQ9sOXvGb8xeU7/DbfuBrfvtrPyXln/w0nj7xE2Y/0uVLPz2j3/sJRx5ma+n3DXWxRT/cUdGn9NNO5qeG2gn9TxyVsJiGENMgn4xpEI2SKJimwAPgLMz5hE6jgn6co9o775KOz+ENO7xhhzfs8IYd3rD/1k+f9g3jUAiDPG88qYvNH5nfWOJkimIfetDNT1/hDmt/A7buYznbDQAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7b253c0f2b71961009dcf531de91bfd2</block>
+        <comment>Output the collated string variable</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">2a3a59122be6661024d5f3d0de91bfee</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned>notes,notes_count</outputs_assigned>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:31</sys_created_on>
+        <sys_id>723a99122be6661024d5f3d0de91bf4a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:16</sys_updated_on>
+        <ui_id>9d3fac6e-e6b3-4247-8243-ebd9e46dba42</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVwU7bQBD9lWrPcRQ7cRLnhkBISBSkQrlUlTXeHYcV613jXQfSyP/eWdtxArSIA+qlt8zzzM6bN/OUHTO1K2tnb82JtXKt2erHjknBVgyzOAljgVEG8/k8nEQzEedTMRGYhFkOCRsxDQVSpjYOLYUbULWPd7tcmad0A5WETOGYm6KUCkXaJjYNpQppSwXbu49X8HupRIWe4M8RK6Gi3g4rtiK6mn5oUJdSP9Bjb5I/Oo6CDBWlXvXzvBrPbUsfWldJve7jy77kZg+aSnhS0Yjhs0MtkHrnoCyOWAFagDPVdkAqBHGt1QG4p1G6CQp4tvIX9VtOJhOfmSPNw7H7OoRpL2QH52fggKjU3NUV7qUwkhP/VgmBOdTKnR5jXcJ16aTRXYnzO+irjaoLfdUJwYYH9nsjpLZEAks/qufeD5Lf3Junb3uW51K3qvQfleGghggcaZfVXmPaZS1vX8ncIW+ERoUFdUwLKEtC0rIyG9l2IdLFeK0oGLdXJdAf9hi4n3BMK4DxOeFnLXzXn9xXeoaKfbvvWj7WeOGPJoFosuQ8DhbzGIMZTpMg49M8iPNZMp2HSUIHxJoRs1t7qsDag1C0ofSx9mN2svUCpZ3GvoRXsnQnRGqDgxYdSDo0zai3IeTv3m386k5Tbmraw3tmrD2N/O9m/ASzfYD0C7N9Oe1Z/3GU3ni+87rd0bHzLga0t174adab/ZfGO8j80nkHof+J9bIMowhDDCCM5sEshCzIlkkSJMt4hgtY8OXiE63X+MvV/o+w283eLsP6uLQ0wq3HLo7yxJYuVvJj6MlUD374A9b8BhJK/m1mBwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">59030abcc34a9610d47c9b311501314f</block>
+        <comment>Just set the notes count to zero if find no notes</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(NASK) Get Journal Entries">2a3a59122be6661024d5f3d0de91bfee</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:31</sys_created_on>
+        <sys_id>ba3a99122be6661024d5f3d0de91bf48</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:16</sys_updated_on>
+        <ui_id>c90bb636-1a30-4c34-a6f5-89a8de861388</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPxvijCWveSkph0K2wlr5sxVzLciImS54+kmYm/31XluKENWMt2+PerCPdq3OO7sEDUc72zpoHdWUMX0my+PKUEC49ht8DkdAxsiBUyYZbrmQ1AgnZgHB+Az8bbnoBu8cjQtdcNJrFbj1orLFMk8XwyxZvsKDNoM0vaU7LYl4WWVa8v8jreVnnRVMCgxIbCqiZwKPLA413tyOS/Jaf3fUeN1ZzuYrr29jl/gAq3XhWeZYQ9myZbBjyaUEYlpAOZANW6d2EaAbNnRRHYM2lDYI7eDb8B15YzGb+YMtQIo1uTMsqOhXg9hosIBVHrdOTcYpTZoI5DWvBCbs8xcKBu95LDSUWanGoVsJ18lNwhEwNTh7GGSTBeq/UU4862vu12n4+sLzhcnQlbgpFQUwrsOhd7aznMxAmWIeNqg76Hh2teq02fCxGLl26ErhIW6G2eKmfrhSoJ56isZDeIH49wo+guVfxEdtgcaBZg+G0GicR26FNjOwTYnZmKcCYo0h0t/ruPMUgOYqrgj++hGre2yu8ecOijn3ycrBPZnoYRs6bSCulyvmGbSUVCt/vv7osK2n+cvRfX/i2hFzCrJ3l2ex8Qi7m5xJyJhtvjEXxh1j4N3llKrIs+x+Lv44FN1UY5qhtvPwfpuLJRyDcOXlNuUFqDx77cPgr+I0dDhenp9BW6W9e1BHb/wTYCvwcXwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2a3a59122be6661024d5f3d0de91bfee"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=2a3a59122be6661024d5f3d0de91bfee^sys_idNOT IN3a3a99122be6661024d5f3d0de91bf34,b63a99122be6661024d5f3d0de91bf31"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=176e480f-2557-4a07-bf3a-0179b2c7667e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>compiled_notes</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Compiled Notes</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="(NASK) Get Journal Entries">2a3a59122be6661024d5f3d0de91bfee</model>
+        <model_id>2a3a59122be6661024d5f3d0de91bfee</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_2a3a59122be6661024d5f3d0de91bfee</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:30</sys_created_on>
+        <sys_id>3a3a99122be6661024d5f3d0de91bf34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:47:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=6a501e50-b830-4264-97ed-eda1bd8094c0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>count_of_notes</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Count of Notes</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="(NASK) Get Journal Entries">2a3a59122be6661024d5f3d0de91bfee</model>
+        <model_id>2a3a59122be6661024d5f3d0de91bfee</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_2a3a59122be6661024d5f3d0de91bfee</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:30</sys_created_on>
+        <sys_id>b63a99122be6661024d5f3d0de91bf31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:47:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>inc_sys_id</element>
+        <help/>
+        <hint/>
+        <label>inc_sys_id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2a3a59122be6661024d5f3d0de91bfee</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:30</sys_created_on>
+        <sys_id>2a3a99122be6661024d5f3d0de91bf00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:47:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>days_to_factor</element>
+        <help/>
+        <hint/>
+        <label>days_to_factor</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2a3a59122be6661024d5f3d0de91bfee</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:30</sys_created_on>
+        <sys_id>a23a59122be6661024d5f3d0de91bffa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:47:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2a3a59122be6661024d5f3d0de91bfee"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>notes_count</element>
+        <help/>
+        <hint/>
+        <label>Notes Count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_2a3a59122be6661024d5f3d0de91bfee</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:30</sys_created_on>
+        <sys_id>623a99122be6661024d5f3d0de91bf09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:47:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>notes</element>
+        <help/>
+        <hint/>
+        <label>Notes</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_2a3a59122be6661024d5f3d0de91bfee</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:30</sys_created_on>
+        <sys_id>b63a99122be6661024d5f3d0de91bf0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:47:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2a3a59122be6661024d5f3d0de91bfee"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>935915de2ba6661024d5f3d0de91bf0c</sys_id>
+        <latest_snapshot>2a3a59122be6661024d5f3d0de91bfee</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch5-06-11-2025_06-25-2025_1836.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=935915de2ba6661024d5f3d0de91bf0c"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=935915de2ba6661024d5f3d0de91bf0c^sys_idNOT INb23a99122be6661024d5f3d0de91bf90"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"b23a99122be6661024d5f3d0de91bf90","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="(NASK) Get Journal Entries">935915de2ba6661024d5f3d0de91bf0c</plan_id>
+        <snapshot>3a7f915a2be6661024d5f3d0de91bfbe</snapshot>
+        <sys_created_by>super.man</sys_created_by>
+        <sys_created_on>2025-07-07 09:47:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b23a99122be6661024d5f3d0de91bf90</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>super.man</sys_updated_by>
+        <sys_updated_on>2025-07-07 10:10:17</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

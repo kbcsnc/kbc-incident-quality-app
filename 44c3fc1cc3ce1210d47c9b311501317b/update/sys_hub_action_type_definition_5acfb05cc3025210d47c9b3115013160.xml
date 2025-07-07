@@ -31,15 +31,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5acfb05cc3025210d47c9b3115013160</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>(NASK) Assess Incident Quality</sys_name>
         <sys_overrides/>
-        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_5acfb05cc3025210d47c9b3115013160</sys_update_name>
         <sys_updated_by>super.man</sys_updated_by>
-        <sys_updated_on>2024-12-04 04:08:09</sys_updated_on>
+        <sys_updated_on>2025-07-07 10:06:35</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -53,10 +53,10 @@
         <sys_created_by>super.man</sys_created_by>
         <sys_created_on>2024-11-19 10:28:01</sys_created_on>
         <sys_id>29d58d54c3425210d47c9b3115013138</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>super.man</sys_updated_by>
-        <sys_updated_on>2024-12-04 04:08:04</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a45d4613-7a55-444e-b057-866dfbfb2ad7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <sys_updated_on>2025-07-07 10:06:28</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a45d4613-7a55-444e-b057-866dfbfb2ad7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">69d58d54c3425210d47c9b3115013124</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -128,10 +128,10 @@
         <sys_created_by>super.man</sys_created_by>
         <sys_created_on>2024-11-19 10:28:00</sys_created_on>
         <sys_id>1dd54d54c3425210d47c9b31150131fb</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_updated_by>super.man</sys_updated_by>
-        <sys_updated_on>2024-11-20 09:22:29</sys_updated_on>
+        <sys_updated_on>2025-07-07 10:06:28</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1dd54d54c3425210d47c9b31150131fb"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -170,22 +170,22 @@
         <sys_created_by>super.man</sys_created_by>
         <sys_created_on>2024-11-19 10:28:01</sys_created_on>
         <sys_id>e1d58d54c3425210d47c9b3115013120</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>super.man</sys_updated_by>
-        <sys_updated_on>2024-11-20 09:22:29</sys_updated_on>
+        <sys_updated_on>2025-07-07 10:06:28</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 &#13;
 var inputsPayload = {};&#13;
 inputsPayload['note_days_to_factor'] = inputs.days_to_factor;&#13;
 inputsPayload['incident_sysid'] = inputs.inc_sys_id;&#13;
 &#13;
-var capabilityId = '5d6f10432b31961009dcf531de91bf83'; &#13;
+var capabilityId = '1ea955de2ba6661024d5f3d0de91bf04'; &#13;
 var request = {&#13;
 	executionRequests: [{&#13;
 		payload: inputsPayload,&#13;
 		capabilityId: capabilityId,&#13;
 		meta: {&#13;
-			skillConfigId: 'ed6f1c832b31961009dcf531de91bf47'&#13;
+			skillConfigId: '26a91dde2ba6661024d5f3d0de91bf19'&#13;
 		}&#13;
 	}], &#13;
 	mode: 'sync' &#13;
@@ -349,7 +349,7 @@ try {&#13;
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-20 09:04:36</sys_updated_on>
@@ -432,7 +432,7 @@ try {&#13;
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:28:00</sys_updated_on>
@@ -516,7 +516,7 @@ try {&#13;
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:33:45</sys_updated_on>
@@ -547,9 +547,9 @@ try {&#13;
         <sys_id>b92789d4c3425210d47c9b3115013111</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:33:45</sys_updated_on>
@@ -624,7 +624,7 @@ try {&#13;
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-20 09:04:35</sys_updated_on>
@@ -708,7 +708,7 @@ try {&#13;
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:28:00</sys_updated_on>
@@ -795,7 +795,7 @@ try {&#13;
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
@@ -882,7 +882,7 @@ try {&#13;
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
@@ -965,14 +965,14 @@ try {&#13;
         <sys_created_by>super.man</sys_created_by>
         <sys_created_on>2024-11-19 10:28:01</sys_created_on>
         <sys_id>e9d58d54c3425210d47c9b311501312d</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
-        <sys_updated_on>2024-12-04 04:08:08</sys_updated_on>
+        <sys_updated_on>2025-07-07 10:06:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1013,9 +1013,9 @@ try {&#13;
         <sys_id>0b17f5e0c38a9210d47c9b3115013178</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-20 08:41:46</sys_updated_on>
@@ -1036,9 +1036,9 @@ try {&#13;
         <sys_id>19d54d54c3425210d47c9b31150131d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:28:00</sys_updated_on>
@@ -1060,9 +1060,9 @@ try {&#13;
         <sys_id>e5d58d54c3425210d47c9b3115013128</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
@@ -1083,9 +1083,9 @@ try {&#13;
         <sys_id>e9d58d54c3425210d47c9b311501312c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
@@ -1106,9 +1106,9 @@ try {&#13;
         <sys_id>edd58d54c3425210d47c9b3115013132</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:28:01</sys_updated_on>
@@ -1120,17 +1120,17 @@ try {&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="(NASK) Assess Incident Quality">5acfb05cc3025210d47c9b3115013160</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"e727c9d4c3425210d47c9b311501317e","name":"plan","plan_signature":null}}</plan>
-        <snapshot>17befc0dc35e5e10d47c9b3115013140</snapshot>
+        <snapshot>c69ed9d62be6661024d5f3d0de91bf01</snapshot>
         <sys_created_by>super.man</sys_created_by>
         <sys_created_on>2024-11-19 10:33:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e727c9d4c3425210d47c9b311501317e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>super.man</sys_updated_by>
-        <sys_updated_on>2024-12-04 04:08:10</sys_updated_on>
+        <sys_updated_on>2025-07-07 10:06:35</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1165,7 +1165,7 @@ try {&#13;
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-12-04 04:08:09</sys_updated_on>
@@ -1182,10 +1182,10 @@ try {&#13;
         <sys_created_by>super.man</sys_created_by>
         <sys_created_on>2024-11-19 10:33:52</sys_created_on>
         <sys_id>1b27c9d4c3425210d47c9b3115013153</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>super.man</sys_updated_by>
-        <sys_updated_on>2024-12-04 04:08:09</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a45d4613-7a55-444e-b057-866dfbfb2ad7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <sys_updated_on>2025-07-07 10:06:34</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a45d4613-7a55-444e-b057-866dfbfb2ad7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">5b27c9d4c3425210d47c9b311501313f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1257,10 +1257,10 @@ try {&#13;
         <sys_created_by>super.man</sys_created_by>
         <sys_created_on>2024-11-19 10:33:51</sys_created_on>
         <sys_id>8727c9d4c3425210d47c9b3115013121</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_updated_by>super.man</sys_updated_by>
-        <sys_updated_on>2024-11-20 09:22:31</sys_updated_on>
+        <sys_updated_on>2025-07-07 10:06:34</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8727c9d4c3425210d47c9b3115013121"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1285,22 +1285,22 @@ try {&#13;
         <sys_created_by>super.man</sys_created_by>
         <sys_created_on>2024-11-19 10:33:52</sys_created_on>
         <sys_id>d327c9d4c3425210d47c9b311501313b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>super.man</sys_updated_by>
-        <sys_updated_on>2024-11-20 09:22:31</sys_updated_on>
+        <sys_updated_on>2025-07-07 10:06:34</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 &#13;
 var inputsPayload = {};&#13;
 inputsPayload['note_days_to_factor'] = inputs.days_to_factor;&#13;
 inputsPayload['incident_sysid'] = inputs.inc_sys_id;&#13;
 &#13;
-var capabilityId = '5d6f10432b31961009dcf531de91bf83'; &#13;
+var capabilityId = '1ea955de2ba6661024d5f3d0de91bf04'; &#13;
 var request = {&#13;
 	executionRequests: [{&#13;
 		payload: inputsPayload,&#13;
 		capabilityId: capabilityId,&#13;
 		meta: {&#13;
-			skillConfigId: 'ed6f1c832b31961009dcf531de91bf47'&#13;
+			skillConfigId: '26a91dde2ba6661024d5f3d0de91bf19'&#13;
 		}&#13;
 	}], &#13;
 	mode: 'sync' &#13;
@@ -1478,7 +1478,7 @@ try {&#13;
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:33:51</sys_updated_on>
@@ -1561,7 +1561,7 @@ try {&#13;
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-20 09:04:37</sys_updated_on>
@@ -1645,7 +1645,7 @@ try {&#13;
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
@@ -1676,9 +1676,9 @@ try {&#13;
         <sys_id>5327c9d4c3425210d47c9b3115013134</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
@@ -1753,7 +1753,7 @@ try {&#13;
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:33:51</sys_updated_on>
@@ -1837,7 +1837,7 @@ try {&#13;
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-20 09:04:37</sys_updated_on>
@@ -1924,7 +1924,7 @@ try {&#13;
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
@@ -2011,7 +2011,7 @@ try {&#13;
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
@@ -2094,14 +2094,14 @@ try {&#13;
         <sys_created_by>super.man</sys_created_by>
         <sys_created_on>2024-11-19 10:33:52</sys_created_on>
         <sys_id>db27c9d4c3425210d47c9b3115013148</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
-        <sys_updated_on>2024-12-04 04:08:09</sys_updated_on>
+        <sys_updated_on>2025-07-07 10:06:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2142,9 +2142,9 @@ try {&#13;
         <sys_id>1f1739e0c38a9210d47c9b3115013125</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-20 08:41:47</sys_updated_on>
@@ -2165,9 +2165,9 @@ try {&#13;
         <sys_id>8f27c9d4c3425210d47c9b3115013113</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:33:51</sys_updated_on>
@@ -2189,9 +2189,9 @@ try {&#13;
         <sys_id>d727c9d4c3425210d47c9b3115013143</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
@@ -2212,9 +2212,9 @@ try {&#13;
         <sys_id>db27c9d4c3425210d47c9b3115013147</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
@@ -2235,9 +2235,9 @@ try {&#13;
         <sys_id>df27c9d4c3425210d47c9b311501314d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="[NASK] Incident Tools" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
+        <sys_package display_value="(NASK) Incident Quality Checker" source="x_snc_nask_incid_0">44c3fc1cc3ce1210d47c9b311501317b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="[NASK] Incident Tools">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
+        <sys_scope display_value="(NASK) Incident Quality Checker">44c3fc1cc3ce1210d47c9b311501317b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>super.man</sys_updated_by>
         <sys_updated_on>2024-11-19 10:33:52</sys_updated_on>
@@ -2248,6 +2248,6 @@ try {&#13;
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>5acfb05cc3025210d47c9b3115013160</sys_id>
         <latest_snapshot>4b27c9d4c3425210d47c9b3115013100</latest_snapshot>
-        <compiler_build>glide-xanadu-07-02-2024__patch3-hotfix1-11-13-2024_11-19-2024_1208.zip</compiler_build>
+        <compiler_build>glide-yokohama-12-18-2024__patch5-06-11-2025_06-25-2025_1836.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>
